@@ -25,14 +25,15 @@ public class JsoupTestController {
     @GetMapping("/jsoup/test")
     public void jsoupTest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        Document document = Jsoup.connect("http://www.baidu.com").get();
+        Document document = Jsoup.connect("https://osx.cx/").header("User-Agent",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36").get();
         System.out.println(document.outerHtml());
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=utf-8");
         PrintWriter writer = response.getWriter();
-//        writer.println(document.outerHtml());
+//       writer.println(document.outerHtml());
         OKHttpRequest okHttpRequest = new OKHttpRequest();
-        String html = okHttpRequest.get("http://www.baidu.com");
-        writer.println(html);
+        String html = okHttpRequest.get("https://osx.cx/");
+         writer.println(html);
     }
 }

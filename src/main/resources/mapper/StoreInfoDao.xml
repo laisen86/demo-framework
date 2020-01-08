@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demoframework.dao.StoreInfoDao">
+    <resultMap id="BaseResultMap" type="com.example.demoframework.domain.entity.StoreInfo">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="store_name" jdbcType="VARCHAR" property="storeName"/>
+        <result column="store_addr" jdbcType="VARCHAR" property="storeAddr"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        id, store_name, store_addr, create_time
+    </sql>
+    <update id="updateBatch" parameterType="java.util.List">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        update store_info
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix="store_name = case" suffix="end,">
+                <foreach collection="list" index="index" item="item">
+                    when id = #{item.id,jdbcType=BIGINT} then #{item.storeName,jdbcType=VARCHAR}
+                </foreach>
+            </trim>
+            <trim prefix="store_addr = case" suffix="end,">
+                <foreach collection="list" index="index" item="item">
+                    when id = #{item.id,jdbcType=BIGINT} then #{item.storeAddr,jdbcType=VARCHAR}
+                </foreach>
+            </trim>
+            <trim prefix="create_time = case" suffix="end,">
+                <foreach collection="list" index="index" item="item">
+                    when id = #{item.id,jdbcType=BIGINT} then #{item.createTime,jdbcType=TIMESTAMP}
+                </foreach>
+            </trim>
+        </trim>
+        where id in
+        <foreach close=")" collection="list" item="item" open="(" separator=", ">
+            #{item.id,jdbcType=BIGINT}
+        </foreach>
+    </update>
+    <insert id="batchInsert" keyColumn="id" keyProperty="id" parameterType="map" useGeneratedKeys="true">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        insert into store_info
+        (store_name, store_addr, create_time)
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.storeName,jdbcType=VARCHAR}, #{item.storeAddr,jdbcType=VARCHAR},
+            #{item.createTime,jdbcType=TIMESTAMP}
+            )
+        </foreach>
+    </insert>
+    <insert id="insertOrUpdate" keyColumn="id" keyProperty="id"
+            parameterType="com.example.demoframework.domain.entity.StoreInfo" useGeneratedKeys="true">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        insert into store_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            store_name,
+            store_addr,
+            create_time,
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            #{storeName,jdbcType=VARCHAR},
+            #{storeAddr,jdbcType=VARCHAR},
+            #{createTime,jdbcType=TIMESTAMP},
+        </trim>
+        on duplicate key update
+        <trim suffixOverrides=",">
+            <if test="id != null">
+                id = #{id,jdbcType=BIGINT},
+            </if>
+            store_name = #{storeName,jdbcType=VARCHAR},
+            store_addr = #{storeAddr,jdbcType=VARCHAR},
+            create_time = #{createTime,jdbcType=TIMESTAMP},
+        </trim>
+    </insert>
+    <insert id="insertOrUpdateSelective" keyColumn="id" keyProperty="id"
+            parameterType="com.example.demoframework.domain.entity.StoreInfo" useGeneratedKeys="true">
+        <!--@mbg.generated generated on Wed Jan 08 23:21:13 CST 2020.-->
+        insert into store_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="storeName != null">
+                store_name,
+            </if>
+            <if test="storeAddr != null">
+                store_addr,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="storeName != null">
+                #{storeName,jdbcType=VARCHAR},
+            </if>
+            <if test="storeAddr != null">
+                #{storeAddr,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+        on duplicate key update
+        <trim suffixOverrides=",">
+            <if test="id != null">
+                id = #{id,jdbcType=BIGINT},
+            </if>
+            <if test="storeName != null">
+                store_name = #{storeName,jdbcType=VARCHAR},
+            </if>
+            <if test="storeAddr != null">
+                store_addr = #{storeAddr,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from store_info where id =1;
+    </select>
+</mapper>

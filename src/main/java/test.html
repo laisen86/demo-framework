@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link type="text/css" media="all"
+          href="https://osx.cx/wp-content/cache/autoptimize/css/autoptimize_caad403aa283422bb004f86f01222c10.css"
+          rel="stylesheet"/>
+    <title>黑苹果社区 - 专注黑苹果系统安装教程</title>
+    <meta name="description" content="黑苹果社区是国内最专业的黑苹果资源下载平台，提供最新的黑苹果系统驱动，安装教程，实用Mac软件以及引导工具。"/>
+    <meta name="keywords"
+          content="黑苹果、黑苹果社区、Hackintosh、macx86、黑苹果安装教程、黑苹果驱动下载、黑苹果系统下载、黑苹果懒人版下载、黑苹果原版下载、变色龙引导、四叶草引导、五国图、DSDT、SSDT、Ozmosis、黑苹果显卡驱动、黑苹果网卡驱动、Mac软件下载、Mac破解软件。"/>
+    <link rel="shortcut icon" href="/wp-content/uploads/2017/09/favicon-1.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/uploads/2017/09/favicon.png"/>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://osx.cx/xmlrpc.php">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.osx.cx/wp-content/themes/begin/js/html5.js"></script>
+    <script src="https://cdn.osx.cx/wp-content/themes/begin/js/css3-mediaqueries.js"></script> <![endif]-->
+    <link rel='stylesheet' id='iconfontd-css' href='https://at.alicdn.com/t/font_1443676_0ehspsab2w3.css?ver=2018/2/22'
+          type='text/css' media='all'/>
+    <script type='text/javascript'
+            src='https://cdn.osx.cx/wp-content/themes/begin/js/jquery.min.js?ver=1.10.1'></script>
+    <script type='text/javascript'
+            src='https://cdn.osx.cx/wp-content/plugins/nix-gravatar-cache/js/main.js?ver=4.9.8'></script>
+    <script src="//msite.baidu.com/sdk/c.js?appid=1584567945828764"></script>
+    <script>var _hmt = _hmt || [];\n(function () {\n
+        var hm = document.createElement("script");\n
+        hm.src = "https://hm.baidu.com/hm.js?b76b319f3459e85b3686b3c5300f2388";\n
+        var s = document.getElementsByTagName("script")[0]; \n
+        s.parentNode.insertBefore(hm, s);\n
+    })();</script>
+</head>
+<body class="home blog">
+<div id="page" class="hfeed site">
+    <header id="masthead" class="site-header site-header-s">
+        <div id="header-main" class="header-main">
+            <nav id="top-header">
+                <div class="top-nav">
+                    <div id="user-profile">
+                        <div class="user-login"><a href="https://osx.cx/reg.html" target="_blank"><i
+                                class="be be-personoutline"></i>注册</a></div>
+                        <div class="nav-set">
+                            <div class="nav-login"><a href="#login" class="flatbtn" id="login-main"><i
+                                    class="be be-timerauto"></i>登录</a></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95-container">
+                        <ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95" class="top-menu">
+                            <li id="menu-item-13315"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13315"><a
+                                    rel="nofollow" href="https://bbs.osx.cx">黑苹果交流社区</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="menu-box">
+                <div id="top-menu"><span class="nav-search"></span> <span class="mobile-login"><a href="#login"
+                                                                                                  id="login-mobile"><i
+                        class="be be-timerauto"></i></a></span>
+                    <div class="logo-sites"><a href="https://osx.cx/"><span class="logo-small"><img
+                            src="/wp-content/uploads/2018/02/osx.png"/></span></a>
+                        <h1 class="site-title"><a href="https://osx.cx/" title="黑苹果社区" rel="home">黑苹果社区</a></h1>
+                        <p class="site-description">折腾不息 · 乐此不疲</p></div>
+                    <div id="site-nav-wrap">
+                        <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close">×</a></div>
+                        <div id="sidr-menu">
+                            <div class="toggle-sidr-menu">MENU</a></div>
+                        </div>
+                        <nav id="site-nav" class="main-nav"><a href="#sidr-main" id="navigation-toggle" class="bars"><i
+                                class="be be-menu"></i></a>
+                            <div class="menu-%e4%b8%bb%e5%af%bc%e8%88%aa-container">
+                                <ul id="menu-%e4%b8%bb%e5%af%bc%e8%88%aa" class="down-menu nav-menu">
+                                    <li id="menu-item-13"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13">
+                                        <a title="黑苹果" rel="nofollow" href="https://osx.cx/"><i
+                                                class="zm zm-1"></i><span class="font-text">返回首页</span></a></li>
+                                    <li id="menu-item-10258"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10258">
+                                        <a title="黑苹果系统下载" href="https://osx.cx/macos/"><i
+                                                class="be be-download"></i><span class="font-text">系统下载</span></a></li>
+                                    <li id="menu-item-10251"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10251">
+                                        <a title="系统的启动引导工具下载" href="https://osx.cx/bootloaders/"><i
+                                                class="zm zm-qidong"></i><span class="font-text">引导工具</span></a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10245"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10245">
+                                                <a title="Clover引导" href="https://osx.cx/clover/"><i
+                                                        class="zm zm-clover"></i><span class="font-text">四叶草</span></a>
+                                            </li>
+                                            <li id="menu-item-10244"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10244">
+                                                <a title="chameleon" href="https://osx.cx/chameleon/"><i
+                                                        class="zm zm-bianselong"></i><span class="font-text">变色龙</span></a>
+                                            </li>
+                                            <li id="menu-item-10238"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10238">
+                                                <a href="https://osx.cx/ozmosis/"><i class="zm zm-qidong"></i><span
+                                                        class="font-text">Ozmosis</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-10263"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10263">
+                                        <a title="黑苹果全面驱动" href="https://osx.cx/drive/"><i class="zm zm-drive"></i><span
+                                                class="font-text">驱动下载</span></a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10254"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10254">
+                                                <a href="https://osx.cx/graphics/"><i class="zm zm-xianka"></i><span
+                                                        class="font-text">显卡驱动</span></a></li>
+                                            <li id="menu-item-10247"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10247">
+                                                <a href="https://osx.cx/audio/"><i class="zm zm-shengyin"></i><span
+                                                        class="font-text">声卡驱动</span></a></li>
+                                            <li id="menu-item-10260"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10260">
+                                                <a href="https://osx.cx/wireless/"><i class="zm zm-wang"></i><span
+                                                        class="font-text">网卡驱动</span></a></li>
+                                            <li id="menu-item-10242"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10242">
+                                                <a href="https://osx.cx/other-drive/"><i class="zm zm-driving"></i><span
+                                                        class="font-text">其他驱动</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-10262"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10262">
+                                        <a title="Mac软件" href="https://osx.cx/tools/"><i class="be be-menu"></i><span
+                                                class="font-text">软件工具</span></a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10259"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10259">
+                                                <a href="https://osx.cx/system/"><i class="zm zm-xitong"></i><span
+                                                        class="font-text">系统软件</span></a></li>
+                                            <li id="menu-item-13208"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13208">
+                                                <a href="https://osx.cx/video-post/"><i class="zm zm-yingshi"></i><span
+                                                        class="font-text">影视后期</span></a></li>
+                                            <li id="menu-item-13209"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13209">
+                                                <a href="https://osx.cx/design/"><i class="zm zm-sheji"></i><span
+                                                        class="font-text">设计软件</span></a></li>
+                                            <li id="menu-item-10250"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10250">
+                                                <a href="https://osx.cx/dev-tools/"><i class="zm zm-kaifa"></i><span
+                                                        class="font-text">开发工具</span></a></li>
+                                            <li id="menu-item-10243"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10243">
+                                                <a href="https://osx.cx/office/"><i class="zm zm-bangong"></i><span
+                                                        class="font-text">办公软件</span></a></li>
+                                            <li id="menu-item-10246"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10246">
+                                                <a href="https://osx.cx/imagetools/"><i class="zm zm-tuxiang"></i><span
+                                                        class="font-text">图像软件</span></a></li>
+                                            <li id="menu-item-10248"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10248">
+                                                <a href="https://osx.cx/multi-media/"><i class="zm zm-duomeit"></i><span
+                                                        class="font-text">多媒体类</span></a></li>
+                                            <li id="menu-item-10261"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10261">
+                                                <a href="https://osx.cx/network/"><i class="zm zm-wangluo"></i><span
+                                                        class="font-text">网络软件</span></a></li>
+                                            <li id="menu-item-10249"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10249">
+                                                <a href="https://osx.cx/application/"><i
+                                                        class="zm zm-yingyong"></i><span
+                                                        class="font-text">应用软件</span></a></li>
+                                            <li id="menu-item-10252"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10252">
+                                                <a href="https://osx.cx/xiaolv/"><i class="zm zm-xiaoshuai"></i><span
+                                                        class="font-text">效率工具</span></a></li>
+                                            <li id="menu-item-10241"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10241">
+                                                <a href="https://osx.cx/other/"><i class="zm zm-other"></i><span
+                                                        class="font-text">其他工具</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-10253"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10253">
+                                        <a title="黑苹果安装教程" href="https://osx.cx/course/"><i class="be be-eye"></i><span
+                                                class="font-text">文章教程</span></a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10234"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10234">
+                                                <a href="https://osx.cx/dsdt/"><i class="be be-eye"></i><span
+                                                        class="font-text">dsdt</span></a></li>
+                                            <li id="menu-item-10240"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10240">
+                                                <a href="https://osx.cx/wuguo/"><i class="be be-eye"></i><span
+                                                        class="font-text">五国</span></a></li>
+                                            <li id="menu-item-10257"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10257">
+                                                <a href="https://osx.cx/notebook-pc/"><i class="zm zm-bijiben"></i><span
+                                                        class="font-text">笔记本</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="search-main">
+        <div class="searchbar">
+            <form method="get" id="searchform" action="https://osx.cx/"><span class="search-input"> <input type="text"
+                                                                                                           value=""
+                                                                                                           name="s"
+                                                                                                           id="s"
+                                                                                                           placeholder="输入搜索内容"
+                                                                                                           required/> <button
+                    type="submit" id="searchsubmit"><i class="be be-search"></i></button> </span></form>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <nav class="breadcrumb">
+        <div class="bull"><i class="be be-volumedown"></i></div>
+        <div id="scrolldiv">
+            <div class="scrolltext">
+                <ul>
+                    <li class="scrolltext-title"><a href="https://osx.cx/bulletin/heipingguo-4zhounian.html"
+                                                    rel="bookmark">黑苹果社区4岁了，限时免费注册！</a></li>
+                    <li class="scrolltext-title"><a href="https://osx.cx/bulletin/2019-1yuan.html" rel="bookmark">2019新春佳节
+                        黑苹果社区1元开放注册进行中</a></li>
+                    <li class="scrolltext-title"><a
+                            href="https://osx.cx/bulletin/hackintosh-remote-installation-service.html" rel="bookmark">黑苹果原版镜像和恢复版镜像的区别</a>
+                    </li>
+                    <li class="scrolltext-title"><a href="https://osx.cx/bulletin/respond.html" rel="bookmark">黑苹果社区近期打不开做出回应</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">$(document).ready(function () {
+            $("#scrolldiv").textSlider({line: 1, speed: 300, timer: 6000});
+        })</script>
+    </nav>
+    <div id="content" class="site-content">
+        <div id="slideshow" class="wow fadeInUp" data-wow-delay="0.3s">
+            <ul class="rslides" id="slider">
+                <li><a href="https://osx.cx/macos-catalina-10-15-2-19c57.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2019/10/macos-catalina-os-s0..jpg"
+                        alt="macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像"/></a>
+                    <p class="slider-caption">macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像</p></li>
+                <li><a href="https://osx.cx/macos-catalina-10-15-1-19b88.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2019/10/macos-catalina-os-s1.jpg"
+                        alt="macOS Catalina 10.15.1 (19B88) 自带Clover v2.4 r5098黑苹果系统原版镜像"/></a>
+                    <p class="slider-caption">macOS Catalina 10.15.1 (19B88) 自带Clover v2.4 r5098黑苹果系统原版镜像</p></li>
+                <li><a href="https://osx.cx/macos-catalina-10-15-19a583.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2019/10/macos-catalina-os-s0..jpg"
+                        alt="macOS Catalina 10.15 (19A583) 自带Clover v2.4 r5093黑苹果系统原版镜像"/></a>
+                    <p class="slider-caption">macOS Catalina 10.15 (19A583) 自带Clover v2.4 r5093黑苹果系统原版镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-6.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojave.jpg"
+                        alt="macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-5.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/11/macOS-Mojave-logo.jpg"
+                        alt="macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-4.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojave.jpg"
+                        alt="macOS Mojave 10.14.4(18E226) 自带Clover v2.4 r4905 黑苹果原版安装镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.4(18E226) 自带Clover v2.4 r4905 黑苹果原版安装镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-3.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/11/macOS-Mojave-logo.jpg"
+                        alt="macOS Mojave 10.14.3(18D42) 自带Clover v2.4 r4859 黑苹果原版安装镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.3(18D42) 自带Clover v2.4 r4859 黑苹果原版安装镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-2.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojave.jpg"
+                        alt="macOS Mojave 10.14.2 (18C54)正式版 最新自带Clover v2.4 r4813 黑苹果原版镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.2 (18C54)正式版 最新自带Clover v2.4 r4813 黑苹果原版镜像</p></li>
+                <li><a href="https://osx.cx/macos-mojave-10-14-1-18b75.html" rel="bookmark"><img
+                        src="https://cdn.osx.cx/wp-content/uploads/2018/11/macOS-Mojave-logo.jpg"
+                        alt="macOS Mojave 10.14.1 (18B75)正式版 最新自带Clover v2.4 r4726 黑苹果原版镜像"/></a>
+                    <p class="slider-caption">macOS Mojave 10.14.1 (18B75)正式版 最新自带Clover v2.4 r4726 黑苹果原版镜像</p></li>
+            </ul>
+        </div>
+        <div class="deanm">
+            <div class="group-title wow fadeInUp" data-wow-delay="0.3s"><h3></h3>
+                <div></div>
+                <div class="clear"></div>
+            </div>
+            <div class="deanm-main wow fadeInUp" data-wow-delay="0.3s">
+                <div class="deanm1 deanmove">
+                    <div class="deanm-t">远程安装</div>
+                    <div class="clear"></div>
+                    <div>U盘安装、拒绝恢复版</div>
+                    <div class="deanquan"><a rel="nofollow" href=https://item.taobao.com/item.htm?id=534301949378
+                                             target="_blank">
+                        <div class="x-back">
+                            <div class="x-1">四叶草引导</div>
+                            <div class="x-2">原版安装</div>
+                            <div class="x-3">￥120~160元/次</div>
+                        </div>
+                    </a></div>
+                    <div>网卡驱动+显卡驱动+声卡驱动</div>
+                    <div class="x-b"><a href=https://item.taobao.com/item.htm?id=534301949378 target="_blank"
+                                        rel="nofollow"><i class="be be-basket"></i>淘宝店铺</a></div>
+                </div>
+                <div class="deanm2 deanmove">
+                    <div class="deanm-t">远程安装</div>
+                    <div class="clear"></div>
+                    <div>U盘安装、拒绝恢复版</div>
+                    <div class="deanquan"><a rel="nofollow" href=https://item.taobao.com/item.htm?id=539804595610
+                                             target="_blank">
+                        <div class="x-back">
+                            <div class="x-1">Clover引导</div>
+                            <div class="x-2">原版安装</div>
+                            <div class="x-3">￥120~160元/次</div>
+                        </div>
+                    </a></div>
+                    <div>网卡驱动+显卡驱动+声卡驱动</div>
+                    <div class="x-b"><a href=https://item.taobao.com/item.htm?id=539804595610 target="_blank"
+                                        rel="nofollow"><i class="be be-basket "></i>淘宝店铺</a></div>
+                </div>
+                <div class="deanm3 deanmove">
+                    <div class="deanm-t">单项定制</div>
+                    <div class="clear"></div>
+                    <div>远程操作、指导安装</div>
+                    <div class="deanquan"><a rel="nofollow" href="http://osx.cx/os-items.html" target="_blank">
+                        <div class="x-back">
+                            <div class="x-1">按需操作</div>
+                            <div class="x-2">特殊定制</div>
+                            <div class="x-3">按项收费</div>
+                        </div>
+                    </a></div>
+                    <div>网卡+显卡+声卡+DSDT+引导</div>
+                    <div class="x-b"><a href="http://osx.cx/os-items.html" target="_blank" rel="nofollow"><i
+                            class="be be-eye"></i>查看详情</a></div>
+                </div>
+                <div class="deanm4 deanmove">
+                    <div class="deanm-t">硬件推荐</div>
+                    <div class="clear"></div>
+                    <div>安逸装机、解决方案</div>
+                    <div class="deanquan"><a rel="nofollow" href="http://osx.cx/retail.html" target="_blank">
+                        <div class="x-back">
+                            <div class="x-1">黑苹果台式机</div>
+                            <div class="x-2">硬件推荐</div>
+                            <div class="x-3">完美黑苹果</div>
+                        </div>
+                    </a></div>
+                    <div>硬件推荐+完美安装+解决方案</div>
+                    <span class="p-button x-b"><a href="http://osx.cx/retail.html" target="_blank" rel="nofollow"><i
+                            class="be be-eye"></i>查看详情</a></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="imac-news">
+            <article id="post-13265"
+                     class="wow fadeInUp post-13265 post type-post status-publish format-quote has-post-thumbnail hentry category-clover tag-clover tag-clover-yin-dao tag-mac-catalina tag-32 tag-12 tag-7 tag-36 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/clover-boot-macos-catalina.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/08/Clover-logo.png title="适用平台：Windows+Mac+UEFI"
+                        alt="Clover v2.4k r5101 黑苹果四叶草启动引导 支持macOS Catalina" width="280" height="210"/></a> <span
+                        class="cat"><a href="https://osx.cx/clover/" rel="category tag">四叶草</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a
+                        href="https://osx.cx/clover-boot-macos-catalina.html" rel="bookmark">Clover v2.4k r5101
+                    黑苹果四叶草启动引导 支持macOS Catalina</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Clover v2.4k r5101是由黑苹果社区编译的最新...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-26</span><span class="views"><i
+                        class="be be-eye"></i> 28,016</span><span class="comment"><a
+                        href="https://osx.cx/clover-boot-macos-catalina.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 3,945</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/clover-boot-macos-catalina.html"
+                                            rel="bookmark">阅读全文</a></span></article>
+            <article id="post-12815"
+                     class="wow fadeInUp post-12815 post type-post status-publish format-quote has-post-thumbnail hentry category-multi-media tag-mac tag-108 tag-191 tag-114 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/permute-3-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/12/Permute.png title="适用平台：OS X 10.11 或更高版本"
+                        alt="Permute 3 For Mac v3.4.0 多媒体万能格式转换工具" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/multi-media/" rel="category tag">多媒体类</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/permute-3-for-mac.html"
+                                                                        rel="bookmark">Permute 3 For Mac v3.4.0
+                    多媒体万能格式转换工具</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Permute 3 For Mac v3.4.0是由黑苹果社...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-26</span><span class="views"><i
+                        class="be be-eye"></i> 2,990</span><span class="comment"><a
+                        href="https://osx.cx/permute-3-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 437</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/permute-3-for-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-11626"
+                     class="wow fadeInUp post-11626 post type-post status-publish format-quote has-post-thumbnail hentry category-system tag-mac tag-148 tag-199 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/geekbench-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/01/Geekbench.png title="适用平台：OS X 10.10 或更高版本"
+                        alt="Geekbench For Mac v5.1.0 Mac硬件性能跑分工具" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/system/" rel="category tag">系统软件</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/geekbench-for-mac.html"
+                                                                        rel="bookmark">Geekbench For Mac v5.1.0
+                    Mac硬件性能跑分工具</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Geekbench For Mac v5.1.0是由黑苹果搜...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-26</span><span class="views"><i
+                        class="be be-eye"></i> 7,134</span><span class="comment"><a
+                        href="https://osx.cx/geekbench-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 1,138</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/geekbench-for-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13021"
+                     class="wow fadeInUp post-13021 post type-post status-publish format-quote has-post-thumbnail hentry category-network tag-mac tag-131 tag-145 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/downie-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/09/Downie-logo-1.png
+                        title="适用平台：OS X 10.10 或更高版本" alt="Downie For Mac v3.9.3 专业的网络视频下载工具" width="280" height="210"/></a>
+                    <span class="cat"><a href="https://osx.cx/network/" rel="category tag">网络软件</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/downie-mac.html"
+                                                                        rel="bookmark">Downie For Mac v3.9.3
+                    专业的网络视频下载工具</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Downie For Mac v3.9.3是由黑苹果社区搜集...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-26</span><span class="views"><i
+                        class="be be-eye"></i> 3,735</span><span class="comment"><a
+                        href="https://osx.cx/downie-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 770</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/downie-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13102"
+                     class="wow fadeInUp post-13102 post type-post status-publish format-quote has-post-thumbnail hentry category-design tag-mac tag-104 tag-109 tag-124 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/sketch-for-macos.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2016/11/Sketch-v41.png title="适用平台：OS X 10.10 或更高版本"
+                        alt="Sketch For Mac v61.2 专业矢量绘图图形设计工具" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/design/" rel="category tag">设计软件</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/sketch-for-macos.html"
+                                                                        rel="bookmark">Sketch For Mac v61.2
+                    专业矢量绘图图形设计工具</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Sketch For Mac v61.2是由黑苹果社区搜集的...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-22</span><span class="views"><i
+                        class="be be-eye"></i> 2,324</span><span class="comment"><a
+                        href="https://osx.cx/sketch-for-macos.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 379</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/sketch-for-macos.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13196"
+                     class="wow fadeInUp post-13196 post type-post status-publish format-quote has-post-thumbnail hentry category-xiaolv tag-mac tag-188 tag-199 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s"><span class="new-icon"><i class="be be-new"></i></span>
+                <figure class="thumbnail"><a href="https://osx.cx/things-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/12/Things.png title="适用平台：OS X 10.9 或更高版本"
+                        alt="Things For Mac v3.11 专业的GTD效率软件" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/xiaolv/" rel="category tag">效率工具</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/things-mac.html"
+                                                                        rel="bookmark">Things For Mac v3.11
+                    专业的GTD效率软件</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Things For Mac v3.11是由黑苹果社区搜集的...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-22</span><span class="views"><i
+                        class="be be-eye"></i> 513</span><span class="comment"><a
+                        href="https://osx.cx/things-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 56</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/things-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13094"
+                     class="wow fadeInUp post-13094 post type-post status-publish format-quote has-post-thumbnail hentry category-audio tag-lilu tag-mac-catalina tag-12 tag-7 tag-36 tag-13 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/applealc-kexts-for-macos-catalina.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/05/voodoohda-suolue.png title="适用平台：macOS"
+                        alt="AppleALC For Mac v1.4.4 黑苹果仿冒声卡驱动 支持macOS Catalina 10.15" width="280" height="210"/></a>
+                    <span class="cat"><a href="https://osx.cx/audio/" rel="category tag">声卡驱动</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a
+                        href="https://osx.cx/applealc-kexts-for-macos-catalina.html" rel="bookmark">AppleALC For Mac
+                    v1.4.4 黑苹果仿冒声卡驱动 支持macOS Catalina 10.15</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> AppleALC For Mac v1.4.4是由黑苹果社区...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-15</span><span class="views"><i
+                        class="be be-eye"></i> 14,880</span><span class="comment"><a
+                        href="https://osx.cx/applealc-kexts-for-macos-catalina.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 2,143</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/applealc-kexts-for-macos-catalina.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13099"
+                     class="wow fadeInUp post-13099 post type-post status-publish format-quote has-post-thumbnail hentry category-other-drive tag-lilu tag-7 tag-13 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/lilu-kext-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/01/kext.png title="适用平台：macOS"
+                        alt="lilu.kext v1.4.0 黑苹果驱动扩展补丁" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/other-drive/" rel="category tag">其他驱动</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/lilu-kext-mac.html"
+                                                                        rel="bookmark">lilu.kext v1.4.0 黑苹果驱动扩展补丁</a>
+                </h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> lilu.kext v1.4.0是由黑苹果社区搜集的一款开源...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-15</span><span class="views"><i
+                        class="be be-eye"></i> 7,480</span><span class="comment"><a
+                        href="https://osx.cx/lilu-kext-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 1,491</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/lilu-kext-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-13097"
+                     class="wow fadeInUp post-13097 post type-post status-publish format-quote has-post-thumbnail hentry category-graphics tag-amd tag-mac-catalina tag-nvidia tag-21 tag-7 tag-36 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/whatevergreen-kext-amd.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2018/01/kext.png title="适用平台：macOS"
+                        alt="WhateverGreen.kext v1.3.6 黑苹果AMD/NVIDIA显卡驱动补丁" width="280" height="210"/></a> <span
+                        class="cat"><a href="https://osx.cx/graphics/" rel="category tag">显卡驱动</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a
+                        href="https://osx.cx/whatevergreen-kext-amd.html" rel="bookmark">WhateverGreen.kext v1.3.6
+                    黑苹果AMD/NVIDIA显卡驱动补丁</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> WhateverGreen.kext v1.3.6是由黑苹果...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-15</span><span class="views"><i
+                        class="be be-eye"></i> 15,428</span><span class="comment"><a
+                        href="https://osx.cx/whatevergreen-kext-amd.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 2,187</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/whatevergreen-kext-amd.html"
+                                            rel="bookmark">阅读全文</a></span></article>
+            <article id="post-12627"
+                     class="wow fadeInUp post-12627 post type-post status-publish format-quote has-post-thumbnail hentry category-office tag-mac tag-98 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/office-for-mac-2019.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/01/office2016.png title="适用平台：macOS 10.12 或更高版本"
+                        alt="Office for Mac 2019 v16.32 支持黑暗模式 强大的公办软件套件" width="280" height="210"/></a> <span
+                        class="cat"><a href="https://osx.cx/office/" rel="category tag">办公软件</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/office-for-mac-2019.html"
+                                                                        rel="bookmark">Office for Mac 2019 v16.32 支持黑暗模式
+                    强大的公办软件套件</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Office for Mac 2019 v16.32是由黑苹...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-14</span><span class="views"><i
+                        class="be be-eye"></i> 28,704</span><span class="comment"><a
+                        href="https://osx.cx/office-for-mac-2019.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 4,970</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/office-for-mac-2019.html"
+                                            rel="bookmark">阅读全文</a></span></article>
+            <article id="post-11856"
+                     class="wow fadeInUp post-11856 post type-post status-publish format-quote has-post-thumbnail hentry category-video-post tag-mac tag-189 tag-217 tag-145 tag-216 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/final-cut-pro-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2016/11/Final-Cut-Pro-logo.png
+                        title="适用平台：macOS 10.13.6 或更高版本" alt="Final Cut Pro For Mac v10.4.8 最好用的视频后期剪辑工具" width="280"
+                        height="210"/></a> <span class="cat"><a href="https://osx.cx/video-post/" rel="category tag">影视后期</a></span>
+                </figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/final-cut-pro-for-mac.html"
+                                                                        rel="bookmark">Final Cut Pro For Mac v10.4.8
+                    最好用的视频后期剪辑工具</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Final Cut Pro For Mac v10.4.8是...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-14</span><span class="views"><i
+                        class="be be-eye"></i> 17,248</span><span class="comment"><a
+                        href="https://osx.cx/final-cut-pro-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 2,929</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/final-cut-pro-for-mac.html"
+                                            rel="bookmark">阅读全文</a></span></article>
+            <article id="post-11858"
+                     class="wow fadeInUp post-11858 post type-post status-publish format-quote has-post-thumbnail hentry category-video-post tag-mac tag-189 tag-217 tag-145 tag-216 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/motion-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/12/Motion.png title="适用平台：macOS 10.13.6 或更高版本"
+                        alt="Motion For Mac v5.4.5 专业的影视后期视频编辑软件" width="280" height="210"/></a> <span class="cat"><a
+                        href="https://osx.cx/video-post/" rel="category tag">影视后期</a></span></figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/motion-for-mac.html"
+                                                                        rel="bookmark">Motion For Mac v5.4.5
+                    专业的影视后期视频编辑软件</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Motion For Mac v5.4.5是由黑苹果社区搜集...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-14</span><span class="views"><i
+                        class="be be-eye"></i> 3,600</span><span class="comment"><a
+                        href="https://osx.cx/motion-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 630</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/motion-for-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-11857"
+                     class="wow fadeInUp post-11857 post type-post status-publish format-quote has-post-thumbnail hentry category-multi-media tag-mac tag-189 tag-145 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/compressor-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/12/Compressor.png
+                        title="适用平台：macOS 10.13.6 或更高版本" alt="Compressor For Mac v4.4.6 专业的视频后期制作软件" width="280"
+                        height="210"/></a> <span class="cat"><a href="https://osx.cx/multi-media/" rel="category tag">多媒体类</a></span>
+                </figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/compressor-for-mac.html"
+                                                                        rel="bookmark">Compressor For Mac v4.4.6
+                    专业的视频后期制作软件</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Compressor For Mac v4.4.6是由黑苹果...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-14</span><span class="views"><i
+                        class="be be-eye"></i> 3,829</span><span class="comment"><a
+                        href="https://osx.cx/compressor-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 584</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/compressor-for-mac.html" rel="bookmark">阅读全文</a></span>
+            </article>
+            <article id="post-12611"
+                     class="wow fadeInUp post-12611 post type-post status-publish format-quote has-post-thumbnail hentry category-multi-media tag-mac tag-79 tag-194 post_format-post-format-quote yrt"
+                     data-wow-delay="0.3s">
+                <figure class="thumbnail"><a href="https://osx.cx/logic-pro-x-for-mac.html"><img
+                        src=https://cdn.osx.cx/wp-content/uploads/2017/12/LogicProX-logo.png
+                        title="适用平台：macOS 10.12 或更高版本" alt="Logic Pro X For Mac v10.4.8 最专业强大的音乐制作软件" width="280"
+                        height="210"/></a> <span class="cat"><a href="https://osx.cx/multi-media/" rel="category tag">多媒体类</a></span>
+                </figure>
+                <header class="entry-header"><h2 class="entry-title"><a href="https://osx.cx/logic-pro-x-for-mac.html"
+                                                                        rel="bookmark">Logic Pro X For Mac v10.4.8
+                    最专业强大的音乐制作软件</a></h2></header>
+                <div class="entry-content">
+                    <div class="archive-content"> Logic Pro X For Mac v10.4.8是由黑...</div>
+                    <span class="post-format"><i class="be be-new" aria-hidden="true"></i></span> <span
+                        class="entry-meta"> <span class="date">2019-12-14</span><span class="views"><i
+                        class="be be-eye"></i> 5,196</span><span class="comment"><a
+                        href="https://osx.cx/logic-pro-x-for-mac.html#comments" rel="external nofollow"><i
+                        class="be be-speechbubble"></i> 600</a></span> </span>
+                    <div class="clear"></div>
+                </div>
+                <span class="entry-more"><a href="https://osx.cx/logic-pro-x-for-mac.html"
+                                            rel="bookmark">阅读全文</a></span></article>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main" role="main">
+                <div id="cms-widget-two" class="wow fadeInUp sort" data-wow-delay="0.5s" name="5">
+                    <div class="xl2">
+                        <aside id="hot3_commend-2" class="widget hot3_commend wow fadeInUp" data-wow-delay="0.3s">
+                            <div id="hot" class="hot_commend">
+                                <ul>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-catalina-10-15-2-19c57.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2019/10/macOS-Catalina.png
+                                            title="适用平台：UEFI+PKG+APFS"
+                                            alt="macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-catalina-10-15-2-19c57.html" rel="bookmark">macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 9,924</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;8</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-catalina-10-15-1-19b88.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2019/10/macOS-Catalina.png
+                                            title="适用平台：UEFI+PKG+APFS"
+                                            alt="macOS Catalina 10.15.1 (19B88) 自带Clover v2.4 r5098黑苹果系统原版镜像"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-catalina-10-15-1-19b88.html" rel="bookmark">macOS Catalina 10.15.1 (19B88) 自带Clover v2.4 r5098黑苹果系统原版镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 25,375</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;39</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-catalina-10-15-19a583.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2019/10/macOS-Catalina.png
+                                            title="适用平台：UEFI+PKG+APFS"
+                                            alt="macOS Catalina 10.15 (19A583) 自带Clover v2.4 r5093黑苹果系统原版镜像" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-catalina-10-15-19a583.html" rel="bookmark">macOS Catalina 10.15 (19A583) 自带Clover v2.4 r5093黑苹果系统原版镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 15,224</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;34</i></li>
+                                    <li><span class="thumbnail"> <a href="https://osx.cx/macos-mojave-10-14-6.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojav.png
+                                            title="适用平台：UEFI+PKG+APFS"
+                                            alt="macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-mojave-10-14-6.html" rel="bookmark">macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 46,377</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;129</i></li>
+                                    <li><span class="thumbnail"> <a href="https://osx.cx/macos-mojave-10-14-5.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojav.png
+                                            title="适用平台：UEFI+GPT+APFS+Clover"
+                                            alt="macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-mojave-10-14-5.html" rel="bookmark">macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 73,999</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;60</i></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </aside>
+                    </div>
+                    <div class="xl2">
+                        <aside id="hot4_commend-2" class="widget hot4_commend wow fadeInUp" data-wow-delay="0.3s">
+                            <div id="hot" class="hot_commend">
+                                <ul>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-sierra-10-12-6-chameleon-cdr.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/InstallAssistant.png
+                                            title="适用平台：变色龙+Boot+MBR" alt="macOS Sierra 10.12.6(16G29) 变色龙引导懒人版CDR黑苹果镜像"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-sierra-10-12-6-chameleon-cdr.html"
+                                            rel="bookmark">macOS Sierra 10.12.6(16G29) 变色龙引导懒人版CDR黑苹果镜像</a></span> <span
+                                            class="views"><i class="fa fa-eye"></i> 38,252</span> <i
+                                            class="fa fa-thumbs-o-up">&nbsp;32</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-sierra-10-12-5-lanren-cdr.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/InstallAssistant.png
+                                            title="适用平台：变色龙+Boot+MBR"
+                                            alt="MacOS Sierra10.12.5 (16F73) 正式版 黑苹果懒人版CDR安装镜像" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-sierra-10-12-5-lanren-cdr.html" rel="bookmark">MacOS Sierra10.12.5 (16F73) 正式版 黑苹果懒人版CDR安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 10,818</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;18</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-sierra-10-12-4-16e195-cdr.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/InstallAssistant.png
+                                            title="适用平台：变色龙+Boot+MBR"
+                                            alt="MacOS Sierra10.12.4 (16E195) 正式版 黑苹果懒人版CDR安装镜像" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-sierra-10-12-4-16e195-cdr.html" rel="bookmark">MacOS Sierra10.12.4 (16E195) 正式版 黑苹果懒人版CDR安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 4,365</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;35</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-sierra-10-12-3-16d32-cdr.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/InstallAssistant.png
+                                            title="适用平台：变色龙+Boot+MBR" alt="MacOS Sierra 10.12.3 (16D32) 黑苹果懒人版CDR安装镜像"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-sierra-10-12-3-16d32-cdr.html" rel="bookmark">MacOS Sierra 10.12.3 (16D32) 黑苹果懒人版CDR安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 3,497</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;24</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-sierra-10-12-2-16c67-cdr.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/InstallAssistant.png
+                                            title="适用平台：变色龙+Boot+MBR" alt="MacOS Sierra 10.12.2 (16c67) 黑苹果懒人版CDR安装镜像"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-sierra-10-12-2-16c67-cdr.html" rel="bookmark">MacOS Sierra 10.12.2 (16c67) 黑苹果懒人版CDR安装镜像</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 1,512</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;28</i></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </aside>
+                    </div>
+                    <div class="xl2">
+                        <aside id="hot1_commend-2" class="widget hot1_commend wow fadeInUp" data-wow-delay="0.3s">
+                            <div id="hot" class="hot_commend">
+                                <ul>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/macos-high-sierra-10-13-xhackintosh-installation-tutorial.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2017/10/jiaocheng.jpg
+                                            title="适用平台：" alt="macOS High Sierra 10.13.x 最新u盘安装黑苹果双系统安装教程" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/macos-high-sierra-10-13-xhackintosh-installation-tutorial.html"
+                                            rel="bookmark">macOS High Sierra 10.13.x 最新u盘安装黑苹果双系统安装教程</a></span> <span
+                                            class="views"><i class="fa fa-eye"></i> 173,586</span> <i
+                                            class="fa fa-thumbs-o-up">&nbsp;132</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/mbr-gpt-winpe-install-windows.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2017/07/mhy0201-applehda-patcher.png
+                                            title="适用平台：macOS" alt="基础篇:硬盘MBR转GPT格式 WinPE安装Windows教程 支持无损" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/mbr-gpt-winpe-install-windows.html" rel="bookmark">基础篇:硬盘MBR转GPT格式 WinPE安装Windows教程 支持无损</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 38,760</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;98</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/heipingguo-hd4400-hd4600-kext.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2017/06/intel-hd-g-logs.png
+                                            title="适用平台：" alt="黑苹果核显hd4400、hd4600显卡Clover引导驱动方法" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/heipingguo-hd4400-hd4600-kext.html" rel="bookmark">黑苹果核显hd4400、hd4600显卡Clover引导驱动方法</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 21,375</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;777</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/heipingguo-10-12-x-hd5500-hd5300-hd6000.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2017/06/intel-hd-g-logs.png
+                                            title="适用平台：" alt="黑苹果驱动核显HD5500、HD5300、HD6000显卡驱动方法" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/heipingguo-10-12-x-hd5500-hd5300-hd6000.html"
+                                            rel="bookmark">黑苹果驱动核显HD5500、HD5300、HD6000显卡驱动方法</a></span> <span
+                                            class="views"><i class="fa fa-eye"></i> 7,890</span> <i
+                                            class="fa fa-thumbs-o-up">&nbsp;2</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/2016-clover-macos-sierra10-12-1-jiaocheng.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2016/09/mhy0201-applehda-patcher.png
+                                            title="适用平台：黑苹果教程" alt="2016最详细的Clover四叶草安装MacOS Sierra10.12.1原版安装教程"
+                                            width="280" height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/2016-clover-macos-sierra10-12-1-jiaocheng.html"
+                                            rel="bookmark">2016最详细的Clover四叶草安装MacOS Sierra10.12.1原版安装教程</a></span> <span
+                                            class="views"><i class="fa fa-eye"></i> 45,726</span> <i
+                                            class="fa fa-thumbs-o-up">&nbsp;31</i></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </aside>
+                    </div>
+                    <div class="xl2">
+                        <aside id="hot2_commend-3" class="widget hot2_commend wow fadeInUp" data-wow-delay="0.3s">
+                            <div id="hot" class="hot_commend">
+                                <ul>
+                                    <li><span class="thumbnail"> <a href="https://osx.cx/office-for-mac-2019.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2017/01/office2016.png
+                                            title="适用平台：macOS 10.12 或更高版本"
+                                            alt="Office for Mac 2019 v16.32 支持黑暗模式 强大的公办软件套件" width="280" height="210"/></a> </span>
+                                        <span class="hot-title"><a href="https://osx.cx/office-for-mac-2019.html"
+                                                                   rel="bookmark">Office for Mac 2019 v16.32 支持黑暗模式 强大的公办软件套件</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 28,704</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;49</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/adobe-cc-for-mac-2019.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/04/Adobe-logo.png
+                                            title="适用平台：macOS" alt="Adobe CC For Mac v2019 官方套装破解版下载" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/adobe-cc-for-mac-2019.html" rel="bookmark">Adobe CC For Mac v2019 官方套装破解版下载</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 5,447</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;0</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/parallels-desktop-mac.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/10/Parallels-logo.png
+                                            title="适用平台：OS X 10.10 或更高版本"
+                                            alt="Parallels Desktop For Mac v14.1.3 (45485) Mac最好用的虚拟机 破解版" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/parallels-desktop-mac.html" rel="bookmark">Parallels Desktop For Mac v14.1.3 (45485) Mac最好用的虚拟机 破解版</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 14,179</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;5</i></li>
+                                    <li><span class="thumbnail"> <a
+                                            href="https://osx.cx/jetbrains-ide-for-mac.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/04/JetBrains-logo.png
+                                            title="适用平台：OS X 10.8 或更高版本"
+                                            alt="JetBrains IDE For Mac v2018.3套装 强大的开发工具 破解版" width="280" height="210"/></a> </span>
+                                        <span class="hot-title"><a href="https://osx.cx/jetbrains-ide-for-mac.html"
+                                                                   rel="bookmark">JetBrains IDE For Mac v2018.3套装 强大的开发工具 破解版</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 3,785</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;27</i></li>
+                                    <li><span class="thumbnail"> <a href="https://osx.cx/adobe-cc-for-mac-v2018-1.html"><img
+                                            src=https://cdn.osx.cx/wp-content/uploads/2018/04/Adobe-logo.png
+                                            title="适用平台：macOS" alt="Adobe CC For Mac v2018.1 官方套装破解版下载" width="280"
+                                            height="210"/></a> </span> <span class="hot-title"><a
+                                            href="https://osx.cx/adobe-cc-for-mac-v2018-1.html" rel="bookmark">Adobe CC For Mac v2018.1 官方套装破解版下载</a></span>
+                                        <span class="views"><i class="fa fa-eye"></i> 10,039</span> <i
+                                                class="fa fa-thumbs-o-up">&nbsp;24</i></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </aside>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="line-four sort" name="8">
+                    <div class="xl4 xm4">
+                        <div class="picture-h wow fadeInUp" data-wow-delay="0.3s">
+                            <figure class="picture-h-img"><a class="videor"
+                                                             href="https://osx.cx/video/macos-sierra-shipinjiaocheng.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/sierra-logo1.png
+                                    alt="MacOS Sierra 正式版 原版 Clover引导dmg安装视频教程"/><i class="be be-play"></i></a></figure>
+                            <h2 class="picture-h-title"><a href="https://osx.cx/video/macos-sierra-shipinjiaocheng.html"
+                                                           rel="bookmark">MacOS Sierra 正式版 原版 Clover引导dmg安装视频教程</a></h2>
+                        </div>
+                    </div>
+                    <div class="xl4 xm4">
+                        <div class="picture-h wow fadeInUp" data-wow-delay="0.3s">
+                            <figure class="picture-h-img"><a class="videor"
+                                                             href="https://osx.cx/video/ozmosis-bootloader-jiao-cheng.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/ozmosis.png alt="Ozmosis Bootloader制作教程"/><i
+                                    class="be be-play"></i></a></figure>
+                            <h2 class="picture-h-title"><a
+                                    href="https://osx.cx/video/ozmosis-bootloader-jiao-cheng.html" rel="bookmark">Ozmosis
+                                Bootloader制作教程</a></h2></div>
+                    </div>
+                    <div class="xl4 xm4">
+                        <div class="picture-h wow fadeInUp" data-wow-delay="0.3s">
+                            <figure class="picture-h-img"><a class="videor"
+                                                             href="https://osx.cx/video/10-9-5-install-hackintosh-videocourse.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/cloverzuixin.png
+                                    alt="10.9.5制作U盘镜像安装黑苹果视频教程"/><i class="be be-play"></i></a></figure>
+                            <h2 class="picture-h-title"><a
+                                    href="https://osx.cx/video/10-9-5-install-hackintosh-videocourse.html"
+                                    rel="bookmark">10.9.5制作U盘镜像安装黑苹果视频教程</a></h2></div>
+                    </div>
+                    <div class="xl4 xm4">
+                        <div class="picture-h wow fadeInUp" data-wow-delay="0.3s">
+                            <figure class="picture-h-img"><a class="videor"
+                                                             href="https://osx.cx/video/virtualbox-install-hackintosh.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/vboxlogo.png
+                                    alt="virtualbox虚拟机安装黑苹果视频教程"/><i class="be be-play"></i></a></figure>
+                            <h2 class="picture-h-title"><a
+                                    href="https://osx.cx/video/virtualbox-install-hackintosh.html" rel="bookmark">virtualbox虚拟机安装黑苹果视频教程</a>
+                            </h2></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="tab-site wow fadeInUp sort" data-wow-delay="0.3s" name="10">
+                    <div id="layout-tab" class="tab-product"><h2 class="tab-hd"><span class="tab-hd-con"><a
+                            href="javascript:">Ozmosis</a></span> <span class="tab-hd-con"><a
+                            href="javascript:">DSDT</a></span> <span class="tab-hd-con"><a href="javascript:">笔记本电脑</a></span>
+                    </h2>
+                        <div class="tab-bd dom-display">
+                            <ul class="tab-bd-con current">
+                                <li class="list-title"><a
+                                        href="https://osx.cx/gigabyte-ozmosis-167x-mass-z77x-up4th-rev-1-0b.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Gigabyte OZMOSIS 167X-MASS
+                                    Z77X-UP4TH Rev.1.0B 支持10.11.4</a></li>
+                                <li class="list-title"><a href="https://osx.cx/ozmosis-for-asus-z87-k.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Ozmosis For
+                                    Asus Z87-K | 华硕主板Ozmosis固件</a></li>
+                                <li class="list-title"><a href="https://osx.cx/asus-sabertooth-z77-ozmosis-v1479.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>ASUS
+                                    SABERTOOTH-Z77 | Ozmosis v1479 主板固件</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/ozmosis-for-asus-p8z77-m-biosloaders.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Ozmosis For ASUS P8Z77-M
+                                    Biosloaders | 华硕P8Z77-M主板Ozmosis引导固件</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/ozmosis-1479-for-gigabyte-ga-z77x-up4th.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Ozmosis 1479 For Gigabyte
+                                    Ga-Z77X-UP4TH | 技嘉Z77X-UP4TH主板固件</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/ozmosis-1479-for-gigabyte-ga-z77x-up5th-ji-jia-z77x-up5th-zhu-ban-gu-jian.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Ozmosis 1479 For Gigabyte
+                                    Ga-Z77X-UP5TH | 技嘉Z77X-UP5TH主板固件</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/ozmosis-1479-for-gigabyte-ga-z77x-ud4h.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Ozmosis 1479 For Gigabyte
+                                    Ga-Z77X-UD4H | 技嘉Z77X-UD4H主板固件</a></li>
+                                <li class="list-title"><a href="https://osx.cx/ozmosis-for-gigabyte-h81m-hd3.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Ozmosis For
+                                    Gigabyte H81M-HD3 | Ozmosis技嘉主板BIOS引导固件</a></li>
+                            </ul>
+                            <ul class="tab-bd-con">
+                                <li class="list-title"><a href="https://osx.cx/dsdt-and-ssdt-for-black-apple.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>黑苹果教程之dsdt和SSDT反编译和工具使用</a>
+                                </li>
+                                <li class="list-title"><a href="https://osx.cx/ubuntu-xia-ti-qu-dsdt-ssdt.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>ubuntu下提取DSDT
+                                    SSDT和声卡ID</a></li>
+                                <li class="list-title"><a href="https://osx.cx/dsdt-yu-ssdt-ti-qu.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>DSDT与SSDT提取</a>
+                                </li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/syntax-errorunexpected-expecting-dsdt.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>syntax error,unexpected ‘}’,expecting ‘(’ |
+                                    DSDT错误修复</a></li>
+                                <li class="list-title"><a href="https://osx.cx/acpidump-acpi-dsdt-ssdt.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>用acpidump提取ACPI表
+                                    包括DSDT SSDT等</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/syntax-errorunexpected-parseop-dsdt-xiufu.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>syntax error,unexpected PARSEOP_
+                                    | DSDT错误修复</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/invalid-combination-of-length-and-min-dsdt-xiufu.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Invalid combination of length and
+                                    Min/Max fixed flags | DSDT错误修复</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/control-method-should-be-made-serialized-dsdt-xiufu.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Control Method should be made
+                                    Serialized | DSDT错误修复</a></li>
+                            </ul>
+                            <ul class="tab-bd-con">
+                                <li class="list-title"><a
+                                        href="https://osx.cx/hasee-k4i5-install-macos-high-sierra-10-13.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>神舟笔记本战神k4i5安装黑苹果 MacOS High
+                                    Sierra 10.13</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/xiaomi13-3-install-macos-high-sierra-10-13-beta9.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>小米13.3笔记本安装黑苹果macOS High Sierra
+                                    10.13 Beta9</a></li>
+                                <li class="list-title"><a href="https://osx.cx/dell-vostro-5470-install-hackintosh.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>戴尔Dell vostro
+                                    5470 安装黑苹果</a></li>
+                                <li class="list-title"><a href="https://osx.cx/asus-x450vc-install-hackintosh.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>华硕 X450VC|
+                                    黑苹果笔记本安装</a></li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/hua-shuo-w50jk4200-hei-ping-guo-bi-ji-ben-an-zhuang.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>华硕 W50JK4200| 黑苹果笔记本安装</a></li>
+                                <li class="list-title"><a href="https://osx.cx/asus-s550cm-install-hackintosh.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>华硕 S550CM |
+                                    黑苹果笔记本安装</a></li>
+                                <li class="list-title"><a href="https://osx.cx/acer-e1-471g-for-ei-capitan.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>宏基E1-471G for
+                                    EI Capitan| 黑苹果笔记本安装</a></li>
+                                <li class="list-title"><a href="https://osx.cx/asus-w50jk420-install-hackintosh.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>华硕w50jk420|
+                                    黑苹果安装</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </main>
+        </div>
+        <div id="sidebar" class="widget-area cms-sidebar">
+            <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <aside id="hot_comment-4" class="widget hot_comment wow fadeInUp" data-wow-delay="0.3s"><h3
+                        class="widget-title"><span class="title-i"><span class="title-i-t"></span><span
+                        class="title-i-b"></span><span class="title-i-b"></span><span class="title-i-t"></span></span>热评文章
+                </h3>
+                    <div class="new_cat">
+                        <ul>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/clover-configurator-tool.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2015/11/Clover-Configurator.png
+                                    title="适用平台：OS X 10.7 或更高版本" alt="Clover Configurator v5.4.5.0中文版 黑苹果引导四叶草配置工具"
+                                    width="280" height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/clover-configurator-tool.html" rel="bookmark">Clover Configurator v5.4.5.0中文版 黑苹果引导四叶草配置工具</a></span>
+                                <span class="date">07/04</span> <span class="discuss"><i class="be be-speechbubble"></i> 10,073</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/macos-high-sierra-10-13-6.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2017/10/macOS-High-Sierra-10-13-logo.png
+                                    title="适用平台：UEFI+GPT+APFS+Clover"
+                                    alt="macOS High Sierra 10.13.6(17G65) 最新自带Clover 2.4k r4598黑苹果原版安装镜像" width="280"
+                                    height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/macos-high-sierra-10-13-6.html" rel="bookmark">macOS High Sierra 10.13.6(17G65) 最新自带Clover 2.4k r4598黑苹果原版安装镜像</a></span>
+                                <span class="date">07/13</span> <span class="discuss"><i class="be be-speechbubble"></i> 8,482</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/macos-mojave-10-14-6.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojav.png
+                                    title="适用平台：UEFI+PKG+APFS"
+                                    alt="macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像" width="280"
+                                    height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/macos-mojave-10-14-6.html" rel="bookmark">macOS Mojave 10.14.6 (18G84) 自带Clover v2.4 r5027 黑苹果原版安装镜像</a></span>
+                                <span class="date">07/24</span> <span class="discuss"><i class="be be-speechbubble"></i> 5,586</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/office-for-mac-2019.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2017/01/office2016.png
+                                    title="适用平台：macOS 10.12 或更高版本" alt="Office for Mac 2019 v16.32 支持黑暗模式 强大的公办软件套件"
+                                    width="280" height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/office-for-mac-2019.html" rel="bookmark">Office for Mac 2019 v16.32 支持黑暗模式 强大的公办软件套件</a></span>
+                                <span class="date">12/14</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,970</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/clover-uefi.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2018/08/Clover-logo.png
+                                    title="适用平台：UEFI+PKG" alt="Clover v2.4k r4958 黑苹果四叶草启动引导 支持macOS Mojave" width="280"
+                                    height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/clover-uefi.html" rel="bookmark">Clover v2.4k r4958 黑苹果四叶草启动引导 支持macOS Mojave</a></span>
+                                <span class="date">06/09</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,801</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/clover-tool.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2018/08/Clover-logo.png
+                                    title="适用平台：UEFI+PKG" alt="Clover v2.4k r4884 最新黑苹果四叶草启动引导 支持macOS Mojave"
+                                    width="280" height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/clover-tool.html" rel="bookmark">Clover v2.4k r4884 最新黑苹果四叶草启动引导 支持macOS Mojave</a></span>
+                                <span class="date">02/25</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,581</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/clover-for-macos-catalina.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2018/08/Clover-logo.png
+                                    title="适用平台：UEFI+PKG" alt="Clover v2.4k r5092 黑苹果四叶草启动引导 支持macOS Catalina"
+                                    width="280" height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/clover-for-macos-catalina.html" rel="bookmark">Clover v2.4k r5092 黑苹果四叶草启动引导 支持macOS Catalina</a></span>
+                                <span class="date">09/29</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,376</span>
+                            </li>
+                            <li><span class="thumbnail"> <a href="https://osx.cx/macos-mojave-10-14-5.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojav.png
+                                    title="适用平台：UEFI+GPT+APFS+Clover"
+                                    alt="macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像" width="280"
+                                    height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/macos-mojave-10-14-5.html" rel="bookmark">macOS Mojave 10.14.5 (18F132) 自带Clover v2.4 r4928 黑苹果原版安装镜像</a></span>
+                                <span class="date">05/15</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,355</span>
+                            </li>
+                            <li><span class="thumbnail"> <a
+                                    href="https://osx.cx/2016-clover-macos-sierra10-12-1-jiaocheng.html"><img
+                                    src=https://cdn.osx.cx/wp-content/uploads/2016/09/mhy0201-applehda-patcher.png
+                                    title="适用平台：黑苹果教程" alt="2016最详细的Clover四叶草安装MacOS Sierra10.12.1原版安装教程" width="280"
+                                    height="210"/></a> </span> <span class="new-title"><a
+                                    href="https://osx.cx/2016-clover-macos-sierra10-12-1-jiaocheng.html" rel="bookmark">2016最详细的Clover四叶草安装MacOS Sierra10.12.1原版安装教程</a></span>
+                                <span class="date">12/11</span> <span class="discuss"><i class="be be-speechbubble"></i> 4,039</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+                <aside id="recent_comments-3" class="widget recent_comments wow fadeInUp" data-wow-delay="0.3s"><h3
+                        class="widget-title"><span class="title-i"><span class="title-i-t"></span><span
+                        class="title-i-b"></span><span class="title-i-b"></span><span class="title-i-t"></span></span>近期评论
+                </h3>
+                    <div id="message" class="message-widget">
+                        <ul>
+                            <li><a href="https://osx.cx/autocad-2018-for-mac.html#anchor-comment-406038"
+                                   title="AutoCAD 2019.1 For Mac 功能强大3D设计软件 破解版" rel="external nofollow"> <img alt=""
+                                                                                                               src='https://cdn.osx.cx/wp-content/uploads/gravatar/45c1dc28a91df1e22b7cd8fdd798c5d7-s64.jpg'
+                                                                                                               class="avatar avatar-64"
+                                                                                                               width="64"
+                                                                                                               height="64"/>
+                                <span class="comment_author"><strong>travemate</strong></span> 2020装不上，看看这个能不能 </a></li>
+                            <li><a href="https://osx.cx/macos-catalina-10-15-2-19c57.html#anchor-comment-406037"
+                                   title="macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像"
+                                   rel="external nofollow"> <img alt=""
+                                                                 src='https://cdn.osx.cx/wp-content/uploads/gravatar/ffc6cca3b7ac7150729158143f46cf28-s64.jpg'
+                                                                 class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong><span class="__cf_email__"
+                                                                         data-cfemail="2911111d19101f1d111a695858074a4644">[email&#160;protected]</span></strong></span>
+                                很不错的公众号，来学习 <img
+                                        src="https://cdn.osx.cx/wp-content/themes/begin/img/smilies/icon_redface.gif"
+                                        alt=":oops:" class="wp-smiley" style="height: 1em; max-height: 1em;"/> <img
+                                        src="https://cdn.osx.cx/wp-content/themes/begin/img/smilies/icon_redface.gif"
+                                        alt=":oops:" class="wp-smiley" style="height: 1em; max-height: 1em;"/> <img
+                                        src="https://cdn.osx.cx/wp-content/themes/begin/img/smilies/icon_redface.gif"
+                                        alt=":oops:" class="wp-smiley" style="height: 1em; max-height: 1em;"/> </a></li>
+                            <li><a href="https://osx.cx/hwsensors-efi-v6181394.html#anchor-comment-406036"
+                                   title="HWSensors EFI v 6.19.1406| 黑苹果系统硬件监控插件（已更新）" rel="external nofollow"> <img
+                                    alt=""
+                                    src='https://cdn.osx.cx/wp-content/uploads/gravatar/dd452bcc55ec58f52e009e3611f357b0-s64.jpg'
+                                    class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>KERWIN</strong></span> 估计很不错，希望变频成功 </a></li>
+                            <li><a href="https://osx.cx/macos-catalina-10-15-2-19c57.html#anchor-comment-406035"
+                                   title="macOS Catalina 10.15.2 (19C57) 自带Clover v2.4 r5100黑苹果原版镜像"
+                                   rel="external nofollow"> <img alt=""
+                                                                 src='https://cdn.osx.cx/wp-content/uploads/gravatar/d967982044073eddd84eb9c969682476-s64.jpg'
+                                                                 class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>tfc880</strong></span> 感谢分享感谢分享 </a></li>
+                            <li><a href="https://osx.cx/things-mac.html#anchor-comment-406034"
+                                   title="Things For Mac v3.11 专业的GTD效率软件" rel="external nofollow"> <img alt=""
+                                                                                                         src='https://cdn.osx.cx/wp-content/uploads/gravatar/5051407b210d7749194f6ca03d39da5e-s64.jpg'
+                                                                                                         class="avatar avatar-64"
+                                                                                                         width="64"
+                                                                                                         height="64"/>
+                                <span class="comment_author"><strong>bangwudao</strong></span> 很好的东西非常棒 </a></li>
+                            <li><a href="https://osx.cx/intelgraphicsfixup-kext-v1-2-6.html#anchor-comment-406033"
+                                   title="IntelGraphicsFixup.kext v1.2.6 修复黑苹果显卡驱动花屏" rel="external nofollow"> <img
+                                    alt=""
+                                    src='https://cdn.osx.cx/wp-content/uploads/gravatar/e4cdc78a137f5e075ab1ebb2b3279805-s64.jpg'
+                                    class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>320786740</strong></span> 谢谢分享~~ </a></li>
+                            <li><a href="https://osx.cx/webdriver-387-10-10-10-40-118.html#anchor-comment-406032"
+                                   title="WebDriver-387.10.10.10.40.118 最新黑苹果显卡驱动支持10.13.6(17G5019)"
+                                   rel="external nofollow"> <img alt=""
+                                                                 src='https://cdn.osx.cx/wp-content/uploads/gravatar/6fdf47ee1a6e5dffee034adad0749330-s64.jpg'
+                                                                 class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>Pying0828</strong></span> 感谢感谢！！！！！ </a></li>
+                            <li><a href="https://osx.cx/voodoops2controller-v1-8-26.html#anchor-comment-406031"
+                                   title="VoodooPS2Controller v1.8.26 黑苹果键盘鼠标触摸板万能驱动" rel="external nofollow"> <img
+                                    alt=""
+                                    src='https://cdn.osx.cx/wp-content/uploads/gravatar/929c7514722908cf782dd20e16e8b798-s64.jpg'
+                                    class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>pandechang</strong></span> 感谢分享11111 </a></li>
+                            <li>
+                                <a href="https://osx.cx/adobe-photoshop-cc-2017-for-mac-v18-0-0.html#anchor-comment-406030"
+                                   title="Adobe Photoshop CC 2017 For mac v18.0.0 最新破解版" rel="external nofollow"> <img
+                                        alt=""
+                                        src='https://cdn.osx.cx/wp-content/uploads/gravatar/aa8891829008dd7e2748293673f4c802-s64.jpg'
+                                        class="avatar avatar-64" width="64" height="64"/> <span
+                                        class="comment_author"><strong>wojiaoliuhu</strong></span> 非常感谢。幸苦了 </a></li>
+                            <li><a href="https://osx.cx/clover-boot-macos-catalina.html#anchor-comment-406029"
+                                   title="Clover v2.4k r5101 黑苹果四叶草启动引导 支持macOS Catalina" rel="external nofollow"> <img
+                                    alt=""
+                                    src='https://cdn.osx.cx/wp-content/uploads/gravatar/7c9a6af880068acd8d92e295b19a5380-s64.jpg'
+                                    class="avatar avatar-64" width="64" height="64"/> <span
+                                    class="comment_author"><strong>tankli</strong></span> 感谢楼主分享 </a></li>
+                            <li><a href="https://osx.cx/no-query.html#anchor-comment-406028"
+                                   title="VoodooPS2Controller v1.8.15 | 黑苹果键盘万能驱动" rel="external nofollow"> <img alt=""
+                                                                                                                 src='https://cdn.osx.cx/wp-content/uploads/gravatar/929c7514722908cf782dd20e16e8b798-s64.jpg'
+                                                                                                                 class="avatar avatar-64"
+                                                                                                                 width="64"
+                                                                                                                 height="64"/>
+                                <span class="comment_author"><strong>pandechang</strong></span> 感谢分享2222222222 </a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="below-main">
+            <div class="cms-cat-grid wow fadeInUp sort" data-wow-delay="0.5s" name="13"><h3 class="cat-grid-title"><a
+                    href="https://osx.cx/game/"> <span
+                    class="title-i"><span></span><span></span><span></span><span></span></span> 游戏下载<span
+                    class="more-i"><span></span><span></span><span></span></span> </a></h3>
+                <div class="cat-g3">
+                    <article id="post-12329"
+                             class="post-12329 post type-post status-publish format-quote has-post-thumbnail hentry category-action tag-mac tag-177 tag-168 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/call-of-duty-4-for-mac.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/09/shiming-logo.png
+                                title="适用平台：OS X 10.10 或更高版本" alt="Call of Duty 4 for Mac (使命召唤4：现代战争) v1.7.549.2"
+                                width="280" height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/call-of-duty-4-for-mac.html" rel="bookmark">Call of Duty 4 for Mac
+                            (使命召唤4：现代战争) v1.7.549.2</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">07/27</span><span
+                                class="views"><i class="be be-eye"></i> 4,141</span><span class="comment"><a
+                                href="https://osx.cx/call-of-duty-4-for-mac.html#comments" rel="external nofollow"><i
+                                class="be be-speechbubble"></i> 362</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-11564"
+                             class="post-11564 post type-post status-publish format-quote has-post-thumbnail hentry category-role-playing tag-mac tag-78 tag-192 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/pyre-for-mac-v1-5.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2018/02/Pyre-logo.png
+                                title="适用平台：OS X 10.7.5 或更高版本" alt="Pyre For Mac v1.5 好玩的魔幻色彩RPG游戏" width="280"
+                                height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/pyre-for-mac-v1-5.html" rel="bookmark">Pyre For Mac v1.5
+                            好玩的魔幻色彩RPG游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">02/22</span><span
+                                class="views"><i class="be be-eye"></i> 1,849</span><span class="comment"><a
+                                href="https://osx.cx/pyre-for-mac-v1-5.html#comments" rel="external nofollow"><i
+                                class="be be-speechbubble"></i> 39</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-11022"
+                             class="post-11022 post type-post status-publish format-quote has-post-thumbnail hentry category-role-playing tag-mac tag-macos-high-sierra tag-78 tag-7 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a
+                                href="https://osx.cx/marvels-guardians-of-the-galaxy-the-telltale-series.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/11/Marvels-Guardians-logo.png
+                                title="适用平台：macOS 10.12 或更高版本"
+                                alt="Marvels Guardians of the Galaxy: The Telltale Series 银河护卫队 Mac游戏" width="280"
+                                height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/marvels-guardians-of-the-galaxy-the-telltale-series.html"
+                                rel="bookmark">Marvels Guardians of the Galaxy: The Telltale Series 银河护卫队 Mac游戏</a></h2>
+                        </header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">11/30</span><span
+                                class="views"><i class="be be-eye"></i> 1,951</span><span class="comment"><a
+                                href="https://osx.cx/marvels-guardians-of-the-galaxy-the-telltale-series.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 94</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-10936"
+                             class="post-10936 post type-post status-publish format-quote has-post-thumbnail hentry category-maoxian tag-mac tag-macos-high-sierra tag-os-x tag-radeon tag-182 tag-168 tag-78 tag-7 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/pressure-overdrive-for-mac.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/11/PressureOverdrive-logo.png
+                                title="适用平台：OS X 10.12 或更高版本" alt="Pressure Overdrive for Mac 超好玩的赛车竞速动作射击游戏"
+                                width="280" height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/pressure-overdrive-for-mac.html" rel="bookmark">Pressure Overdrive
+                            for Mac 超好玩的赛车竞速动作射击游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">11/14</span><span
+                                class="views"><i class="be be-eye"></i> 1,590</span><span class="comment"><a
+                                href="https://osx.cx/pressure-overdrive-for-mac.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 103</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-10676"
+                             class="post-10676 post type-post status-publish format-quote hentry category-maoxian tag-mac tag-159 tag-182 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/rayman-origins-for-mac-v1-0-2d.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/09/Rayman-Origins-logo.png
+                                title="适用平台：10.9 或更高版本" alt="Rayman Origins (雷曼:起源) for Mac v1.0 2D动作冒险游戏" width="280"
+                                height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/rayman-origins-for-mac-v1-0-2d.html" rel="bookmark">Rayman Origins
+                            (雷曼:起源) for Mac v1.0 2D动作冒险游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">09/17</span><span
+                                class="views"><i class="be be-eye"></i> 1,346</span><span class="comment"><a
+                                href="https://osx.cx/rayman-origins-for-mac-v1-0-2d.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 98</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-10672"
+                             class="post-10672 post type-post status-publish format-quote hentry category-action tag-mac tag-177 tag-78 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/call-of-duty8-for-mac-v1-0.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/09/shiming-logo.png
+                                title="适用平台：10.6 或更高版本" alt="使命召唤8 for Mac (现代战争3) v1.0" width="280" height="210"/></a>
+                        </figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/call-of-duty8-for-mac-v1-0.html" rel="bookmark">使命召唤8 for Mac
+                            (现代战争3) v1.0</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">09/17</span><span
+                                class="views"><i class="be be-eye"></i> 4,479</span><span class="comment"><a
+                                href="https://osx.cx/call-of-duty8-for-mac-v1-0.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 347</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-10622"
+                             class="post-10622 post type-post status-publish format-quote hentry category-arcade tag-mac tag-180 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/the-king-of-fighters-for-mac-v1-0.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/09/kof-logo.png
+                                title="适用平台：OS X 10.7 或更高版本" alt="拳皇13 For Mac V1.0 经典的街机游戏" width="280" height="210"/></a>
+                        </figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/the-king-of-fighters-for-mac-v1-0.html" rel="bookmark">拳皇13 For Mac
+                            V1.0 经典的街机游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">09/16</span><span
+                                class="views"><i class="be be-eye"></i> 2,605</span><span class="comment"><a
+                                href="https://osx.cx/the-king-of-fighters-for-mac-v1-0.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 274</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-10552"
+                             class="post-10552 post type-post status-publish format-quote hentry category-sheji tag-mac tag-135 tag-168 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a href="https://osx.cx/drifting-lands-for-mac.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/09/drifting-logo.png
+                                title="适用平台：OS X 10.7 或更高版本" alt="Drifting Lands 漂流的土地 for Mac 原生破解版飞行射击游戏" width="280"
+                                height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/drifting-lands-for-mac.html" rel="bookmark">Drifting Lands 漂流的土地
+                            for Mac 原生破解版飞行射击游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">09/11</span><span
+                                class="views"><i class="be be-eye"></i> 1,974</span><span class="comment"><a
+                                href="https://osx.cx/drifting-lands-for-mac.html#comments" rel="external nofollow"><i
+                                class="be be-speechbubble"></i> 85</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <article id="post-8601"
+                             class="post-8601 post type-post status-publish format-quote hentry category-maoxian tag-mac tag-159 post_format-post-format-quote yrt">
+                        <figure class="thumbnail"><a
+                                href="https://osx.cx/ken-folletts-the-pillars-of-the-earth.html"><img
+                                src=https://cdn.osx.cx/wp-content/uploads/2017/08/The-Pillars-of-the-Earth.png
+                                title="适用平台：OS X 10.9  或更高版本"
+                                alt="圣殿春秋 Ken Follett's The Pillars of the Earth for Mac v1.0.536 休闲冒险游戏" width="280"
+                                height="210"/></a></figure>
+                        <header class="entry-header"><h2 class="entry-title"><a
+                                href="https://osx.cx/ken-folletts-the-pillars-of-the-earth.html" rel="bookmark">圣殿春秋 Ken
+                            Follett&#8217;s The Pillars of the Earth for Mac v1.0.536 休闲冒险游戏</a></h2></header>
+                        <div class="entry-content"><span class="entry-meta"> <span class="date">08/18</span><span
+                                class="views"><i class="be be-eye"></i> 705</span><span class="comment"><a
+                                href="https://osx.cx/ken-folletts-the-pillars-of-the-earth.html#comments"
+                                rel="external nofollow"><i class="be be-speechbubble"></i> 29</a></span> </span>
+                            <div class="clear"></div>
+                        </div>
+                    </article>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="line-big sort" name="15">
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/bootloaders/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>引导工具<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site"><h2 class="entry-title"><a
+                                href="https://osx.cx/clover-configurator-software.html" rel="bookmark">Clover
+                            Configurator v5.8.0.0 中文版 黑苹果引导四叶草配置工具</a></h2>
+                            <div class="cat-img-small">
+                                <figure class="thumbnail"><a
+                                        href="https://osx.cx/clover-configurator-software.html"><img
+                                        src=https://cdn.osx.cx/wp-content/uploads/2015/11/Clover-Configurator.png
+                                        title="适用平台：OS X 10.7 或更高版本" alt="Clover Configurator v5.8.0.0 中文版 黑苹果引导四叶草配置工具"
+                                        width="280" height="210"/></a></figure>
+                                <div class="cat-main"> Clover Configurator
+                                    v5.8.0.0是由黑苹果社区搜集的一款最新黑苹果引导四叶草配置工具，大家在安装黑苹果系统的时候就要用到Clover引导启动，但不是每个Clov...
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <ul class="cat-list">
+                                <li class="list-date">07/30</li>
+                                <li class="list-title"><a href="https://osx.cx/clover-v2-3k-r3663-pkg-iso-efi.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Clover v2.3k
+                                    r3663四叶草EFI文件、Pkg安装包、Win版三版合一</a></li>
+                                <li class="list-date">06/05</li>
+                                <li class="list-title"><a href="https://osx.cx/clover-v2-4k-r4079.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Clover v2.4k
+                                    r4079四叶草EFI文件、PKG安装包、Win版三版齐发</a></li>
+                                <li class="list-date">11/26</li>
+                                <li class="list-title"><a href="https://osx.cx/clover-v2-3k-r3948-pkg-iso-efi.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Clover v2.3k
+                                    r3948 四叶草EFI文件、Pkg安装包、Win版三版齐发</a></li>
+                                <li class="list-date">08/20</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/ozmosis-for-asus-p8z77-m-biosloaders.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Ozmosis For ASUS P8Z77-M
+                                    Biosloaders | 华硕P8Z77-M主板Ozmosis引导固件</a></li>
+                                <li class="list-date">06/30</li>
+                                <li class="list-title"><a href="https://osx.cx/clover-v2-3k-r3570-pkg-iso-efi.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>Clover v2.3k
+                                    r3570 四叶草EFI文件、Pkg安装包、Win版三版合一</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/macos/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>系统下载<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site"><h2 class="entry-title"><a
+                                href="https://osx.cx/macos-mojave-10-14-18a391.html" rel="bookmark">macOS Mojave 10.14
+                            (18A391)正式版 全新自带Clover v2.4 r4674 黑苹果原版镜像</a></h2>
+                            <div class="cat-img-small">
+                                <figure class="thumbnail"><a href="https://osx.cx/macos-mojave-10-14-18a391.html"><img
+                                        src=https://cdn.osx.cx/wp-content/uploads/2018/09/macOS-Mojav.png
+                                        title="适用平台：UEFI+GPT+APFS+Clover"
+                                        alt="macOS Mojave 10.14 (18A391)正式版 全新自带Clover v2.4 r4674 黑苹果原版镜像" width="280"
+                                        height="210"/></a></figure>
+                                <div class="cat-main"> macOS Mojave 10.14 正式版是由黑苹果社区通过App Store下载并制作的最新自带Clover v2.4
+                                    k4674 黑苹果原版镜像，由于黑苹果显卡驱动还没有及时更新...
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <ul class="cat-list">
+                                <li class="list-date">03/29</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/macos-sierra10-12-4-16e195-clover-install.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>MacOS Sierra10.12.4 (16E195) 正式版
+                                    自带 Clover v2.4k r4045 黑苹果原版镜像</a></li>
+                                <li class="list-date">10/31</li>
+                                <li class="list-title"><a href="https://osx.cx/macos-sierra-10-12-1-clover-install.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>MacOS Sierra
+                                    10.12.1 正式版 自带Clover 3786 黑苹果原版安装镜像</a></li>
+                                <li class="list-date">09/21</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/macos-sierra10-12-13a323-clover-install.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>MacOS Sierra10.12(16A323) 正式版
+                                    自带Clover v2.3k r3761原版安装镜像</a></li>
+                                <li class="list-date">09/26</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/macos-high-sierra-10-13-for-clover-v2-4-k4221-hackintosh-original-image.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>macOS High Sierra 10.13 (17A365)
+                                    正式版 自带Clover v2.4 k4221 黑苹果原版镜像</a></li>
+                                <li class="list-date">07/13</li>
+                                <li class="list-title"><a href="https://osx.cx/macos-high-sierra-10-13-6.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>macOS High
+                                    Sierra 10.13.6(17G65) 最新自带Clover 2.4k r4598黑苹果原版安装镜像</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/audio/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>声卡驱动<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site"><h2 class="entry-title"><a href="https://osx.cx/applealc-for-mac.html"
+                                                                         rel="bookmark">AppleALC For Mac v1.3.9
+                            黑苹果仿冒声卡驱动 支持macOS Mojave 10.14.4</a></h2>
+                            <div class="cat-img-small">
+                                <figure class="thumbnail"><a href="https://osx.cx/applealc-for-mac.html"><img
+                                        src=https://cdn.osx.cx/wp-content/uploads/2018/05/voodoohda-suolue.png
+                                        title="适用平台：macOS"
+                                        alt="AppleALC For Mac v1.3.9 黑苹果仿冒声卡驱动 支持macOS Mojave 10.14.4" width="280"
+                                        height="210"/></a></figure>
+                                <div class="cat-main"> AppleALC For Mac
+                                    v1.3.9是由黑苹果社区编译的最新黑苹果仿冒声卡驱动，安装黑苹果声卡驱动是必备驱动之一，没有声卡驱动会影响我们的日常使用，如：听音乐，看电视剧等，黑...
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <ul class="cat-list">
+                                <li class="list-date">11/20</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/applehda-alc282-for-ei-capitan-10-11-hei-ping-guo-sheng-qia-qu-dong.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>AppleHDA ALC282 for EI Capitan
+                                    10.11| 黑苹果声卡驱动</a></li>
+                                <li class="list-date">07/04</li>
+                                <li class="list-title"><a href="https://osx.cx/applealc-for-mac.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>AppleALC For Mac v1.3.9 黑苹果仿冒声卡驱动 支持macOS Mojave
+                                    10.14.4</a></li>
+                                <li class="list-date">08/18</li>
+                                <li class="list-title"><a href="https://osx.cx/idt-92hd87b1-3-for-10-9-5-10-11-6.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>IDT 92HD87B1 3
+                                    仿冒声卡驱动 For 10.9.5 -10.11.6</a></li>
+                                <li class="list-date">04/17</li>
+                                <li class="list-title"><a href="https://osx.cx/applealc-kext.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>AppleALC.kext v1.2.7 黑苹果仿冒声卡驱动</a></li>
+                                <li class="list-date">07/19</li>
+                                <li class="list-title"><a href="https://osx.cx/voodoohda-2-8-8-v4-for-mac.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>VoodooHDA 2.8.8
+                                    V4 For Mac | Mac黑苹果声卡万能驱动</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/graphics/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>显卡驱动<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site"><h2 class="entry-title"><a href="https://osx.cx/whatevergreen-kext.html"
+                                                                         rel="bookmark">WhateverGreen.kext v1.3.0
+                            最新黑苹果AMD显卡驱动</a></h2>
+                            <div class="cat-img-small">
+                                <figure class="thumbnail"><a href="https://osx.cx/whatevergreen-kext.html"><img
+                                        src=https://cdn.osx.cx/wp-content/uploads/2018/01/kext.png title="适用平台：macOS"
+                                        alt="WhateverGreen.kext v1.3.0 最新黑苹果AMD显卡驱动" width="280" height="210"/></a>
+                                </figure>
+                                <div class="cat-main"> WhateverGreen.kext
+                                    v1.3.0是由黑苹果社区编译的完美支持最新10.13.4的黑苹果AMD显卡驱动，此次更新还是修复了很多功能，如安装黑苹果黑屏，睡眠唤醒黑屏等问题...
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                            <ul class="cat-list">
+                                <li class="list-date">01/10</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/webdriver-378-10-10-10-25-104-for-10-13-217c205.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>WebDriver-378.10.10.10.25.104
+                                    黑苹果显卡驱动支持10.13.2(17C205)</a></li>
+                                <li class="list-date">09/08</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/webdriver-346-03-15f03-os-x-10-11-6-15g1004.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>WebDriver-346.03.15f03 | 支持最新OS X
+                                    10.11.6(15G1004)</a></li>
+                                <li class="list-date">12/21</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/nvidi-web-driver-v346-03-04f02-10-11-2.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>Nvidi Web Driver v346.03.04f02 |
+                                    支持黑苹果10.11.2</a></li>
+                                <li class="list-date">03/29</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/webdriver-367-15-10-45f01-10-12-4-16e195.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>WebDriver-367.15.10.45f01 |
+                                    英伟达显卡驱动支持10.12.4 (16E195)</a></li>
+                                <li class="list-date">08/23</li>
+                                <li class="list-title"><a href="https://osx.cx/desktop-black-apple-nuclear-hd4400.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>台式机黑苹果驱动核显HD4400的方法</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="line-big sort" name="19">
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/wireless/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>网卡驱动<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site">
+                            <ul class="cat-list">
+                                <li class="list-date">07/04</li>
+                                <li class="list-title"><a href="https://osx.cx/intelmausiethernet-kext.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>IntelMausiEthernet.kext
+                                    v2.5.0d0 最新黑苹果Intel有线网卡驱动</a></li>
+                                <li class="list-date">10/28</li>
+                                <li class="list-title"><a href="https://osx.cx/appleintele1000e-kext.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>AppleIntelE1000e.kext
+                                    v3.3.6 最新黑苹果千兆有线网卡驱动</a></li>
+                                <li class="list-date">02/07</li>
+                                <li class="list-title"><a href="https://osx.cx/realtekrtl8111-kext-v2-2-2.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>RealtekRTL8111.kext
+                                    v2.2.2 黑苹果有线网卡驱动</a></li>
+                                <li class="list-date">01/28</li>
+                                <li class="list-title"><a href="https://osx.cx/bcm5722d-kext-v2-3-6.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>BCM5722D.kext
+                                    v2.3.6最新黑苹果博通有线网卡驱动</a></li>
+                                <li class="list-date">01/13</li>
+                                <li class="list-title"><a
+                                        href="https://osx.cx/aw-ce123h-for-10-13-v1-01-bcm94352hmb-z-wifi.html"
+                                        rel="bookmark"><i class="be be-arrowright"></i>AW-CE123H For 10.13 v1.01
+                                    BCM94352HMB/Z黑苹果WIFI无线网卡驱动</a></li>
+                                <li class="list-date">11/12</li>
+                                <li class="list-title"><a href="https://osx.cx/bcm94352z-hackintosh-for-10-13-x.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>博通BCM94352z
+                                    黑苹果无线网卡 蓝牙驱动 支持10.13.x</a></li>
+                                <li class="list-date">10/05</li>
+                                <li class="list-title"><a href="https://osx.cx/atherose2200ethernet-v2-2-2.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>AtherosE2200Ethernet
+                                    V2.2.2 最新黑苹果有线网卡驱动</a></li>
+                                <li class="list-date">09/24</li>
+                                <li class="list-title"><a href="https://osx.cx/xiaomi-wifi-usb-network.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>小米随身WiFi
+                                    黑苹果USB无线网卡驱动</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl3 xm3">
+                    <div class="cat-box wow fadeInUp" data-wow-delay="0.3s"><h3 class="cat-title"><a
+                            href="https://osx.cx/other-drive/"><span
+                            class="title-i"><span></span><span></span><span></span><span></span></span>其他驱动<span
+                            class="more-i"><span></span><span></span><span></span></span></a></h3>
+                        <div class="clear"></div>
+                        <div class="cat-site">
+                            <ul class="cat-list">
+                                <li class="list-date">11/14</li>
+                                <li class="list-title"><a href="https://osx.cx/virtualsmc-kext.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>VirtualSMC.kext v1.0.9 黑苹果必备驱动</a></li>
+                                <li class="list-date">11/14</li>
+                                <li class="list-title"><a href="https://osx.cx/voodoo-ps2-controller.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>VoodooPS2Controller
+                                    v2.0.4 黑苹果键盘鼠标触摸板万能驱动</a></li>
+                                <li class="list-date">10/01</li>
+                                <li class="list-title"><a href="https://osx.cx/hackintool-mac.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>Hackintool v2.8.0 黑苹果万能驱动引导配置工具</a></li>
+                                <li class="list-date">09/15</li>
+                                <li class="list-title"><a href="https://osx.cx/multibeast.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>MultiBeast v11.3.0最新macOS Mojave
+                                    10.14.5黑苹果万能驱动包</a></li>
+                                <li class="list-date">09/11</li>
+                                <li class="list-title"><a href="https://osx.cx/hibernationfixup-kext.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>HibernationFixup.kext
+                                    v1.2.8 最新黑苹果睡眠驱动</a></li>
+                                <li class="list-date">07/04</li>
+                                <li class="list-title"><a href="https://osx.cx/lilu-kext.html" rel="bookmark"><i
+                                        class="be be-arrowright"></i>lilu.kext v1.3.7 黑苹果必备驱动扩展补丁</a></li>
+                                <li class="list-date">12/22</li>
+                                <li class="list-title"><a href="https://osx.cx/virtualsmc-kext-v1-0-2.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>VirtualSMC.kext
+                                    v1.0.2 最新黑苹果必备驱动</a></li>
+                                <li class="list-date">11/18</li>
+                                <li class="list-title"><a href="https://osx.cx/usbinjectall-kext-drive.html"
+                                                          rel="bookmark"><i class="be be-arrowright"></i>USBInjectAll.kext
+                                    v0.7.1 最新黑苹果USB驱动 支持USB 3.0</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="links-box">
+        <div id="links">
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://www.jyrd.com/xiazai/"
+                                                                                   rel="acquaintance" target="_blank">简易下载</a>
+                </li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://blog.linuxeye.cn/"
+                                                                                   target="_blank">Linux运维笔记</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://www.0513c.com/"
+                                                                                   target="_blank">技术宅</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cx/macos/" rel="me"
+                                                                                   target="_blank">黑苹果系统下载</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a
+                        href="https://osx.cx/bootloaders/clover/" rel="me" target="_blank">clover引导</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a
+                        href="https://osx.cx/bootloaders/chameleon/" target="_blank">变色龙引导</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cx/course/"
+                                                                                   target="_blank">黑苹果安装教程</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cx/drive/audio/"
+                                                                                   rel="me" target="_blank">黑苹果声卡驱动</a>
+                </li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cx/drive/graphics/"
+                                                                                   rel="me" target="_blank">黑苹果显卡驱动</a>
+                </li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f link-name wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cxdrive/wireless/"
+                                                                                   target="_blank">黑苹果网卡驱动</a></li>
+            </ul>
+            <ul class="lx7">
+                <li class="link-f wow fadeInUp" data-wow-delay="0.3s"><a href="https://osx.cx/links.html" rel="nofollow"
+                                                                         target="_blank" title="全部链接">更多链接<i
+                        class="icon-li"></i></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="footer-widget-box" class="site-footer">
+        <div class="footer-widget">
+            <aside id="text-2" class="widget widget_text wow fadeInUp" data-wow-delay="0.3s"><h3 class="widget-title">
+                <span class="s-icon"></span>黑苹果社区免责声明</h3>
+                <div class="textwidget"><p>
+                    黑苹果社区大部分下载资源收集于网络，只做学习和交流使用，版权归原作者所有，请在下载后24小时之内自觉删除，若作商业用途，请购买正版，由于未及时购买和付费发生的侵权行为，与黑苹果社区无关。本站发布的内容若侵犯到您的权益，请联系站长删除，我们将及时处理！</p>
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <aside id="php_text-4" class="widget php_text wow fadeInUp" data-wow-delay="0.3s"><h3 class="widget-title">
+                <span class="s-icon"></span>关注我们</h3>
+                <div class="textwidget widget-text">
+                    <ul class="about-me-img clearfix">
+                        <li><img src="https://cdn.osx.cx/wp-content/uploads/2018/03/wx.jpg" alt="Begin主题常见问题"
+                                 alt="黑苹果社区微信公众号">
+                            <p>黑苹果社区微信公众号</p></li>
+                        <li><a href="https://weibo.com/u/6343672659/" target="_blank" rel="nofollow"> <img
+                                src="https://cdn.osx.cx/wp-content/uploads/2018/03/wb.jpg" alt="黑苹果社区官方微博"
+                                alt="黑苹果社区官方微博">
+                            <p>黑苹果社区官方微博</p></a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <aside id="cx_tag_cloud-2" class="widget cx_tag_cloud wow fadeInUp" data-wow-delay="0.3s"><h3
+                    class="widget-title"><span class="s-icon"></span>热门标签</h3>
+                <div class="tagcloud"><a href="https://osx.cx/tag/%e5%8f%98%e8%89%b2%e9%be%99/"
+                                         class="tag-cloud-link tag-link-30 tag-link-position-1"
+                                         style="font-size: 14px;">变色龙</a> <a
+                        href="https://osx.cx/tag/%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7/"
+                        class="tag-cloud-link tag-link-102 tag-link-position-2" style="font-size: 14px;">开发工具</a> <a
+                        href="https://osx.cx/tag/mac%e5%b7%a5%e5%85%b7/"
+                        class="tag-cloud-link tag-link-65 tag-link-position-3" style="font-size: 14px;">Mac工具</a> <a
+                        href="https://osx.cx/tag/%e9%bb%91%e8%8b%b9%e6%9e%9c%e9%a9%b1%e5%8a%a8/"
+                        class="tag-cloud-link tag-link-13 tag-link-position-4" style="font-size: 14px;">黑苹果驱动</a> <a
+                        href="https://osx.cx/tag/macos-high-sierra/"
+                        class="tag-cloud-link tag-link-140 tag-link-position-5" style="font-size: 14px;">macOS High
+                    Sierra</a> <a href="https://osx.cx/tag/%e9%bb%91%e8%8b%b9%e6%9e%9c%e7%b3%bb%e7%bb%9f/"
+                                  class="tag-cloud-link tag-link-36 tag-link-position-6"
+                                  style="font-size: 14px;">黑苹果系统</a> <a
+                        href="https://osx.cx/tag/%e7%b3%bb%e7%bb%9f%e8%bd%af%e4%bb%b6/"
+                        class="tag-cloud-link tag-link-148 tag-link-position-7" style="font-size: 14px;">系统软件</a> <a
+                        href="https://osx.cx/tag/clover/" class="tag-cloud-link tag-link-29 tag-link-position-8"
+                        style="font-size: 14px;">Clover</a> <a href="https://osx.cx/tag/dsdt/"
+                                                               class="tag-cloud-link tag-link-8 tag-link-position-9"
+                                                               style="font-size: 14px;">DSDT</a> <a
+                        href="https://osx.cx/tag/os-x/" class="tag-cloud-link tag-link-10 tag-link-position-10"
+                        style="font-size: 14px;">OS X</a> <a href="https://osx.cx/tag/usb/"
+                                                             class="tag-cloud-link tag-link-24 tag-link-position-11"
+                                                             style="font-size: 14px;">USB</a> <a
+                        href="https://osx.cx/tag/%e5%90%af%e5%8a%a8%e5%bc%95%e5%af%bc/"
+                        class="tag-cloud-link tag-link-31 tag-link-position-12" style="font-size: 14px;">启动引导</a> <a
+                        href="https://osx.cx/tag/%e5%a4%9a%e5%aa%92%e4%bd%93%e5%b7%a5%e5%85%b7/"
+                        class="tag-cloud-link tag-link-67 tag-link-position-13" style="font-size: 14px;">多媒体工具</a> <a
+                        href="https://osx.cx/tag/%e9%bb%91%e8%8b%b9%e6%9e%9c/"
+                        class="tag-cloud-link tag-link-7 tag-link-position-14" style="font-size: 14px;">黑苹果</a> <a
+                        href="https://osx.cx/tag/%e5%bc%95%e5%af%bc%e5%b7%a5%e5%85%b7/"
+                        class="tag-cloud-link tag-link-42 tag-link-position-15" style="font-size: 14px;">引导工具</a> <a
+                        href="https://osx.cx/tag/%e5%9b%9b%e5%8f%b6%e8%8d%89/"
+                        class="tag-cloud-link tag-link-32 tag-link-position-16" style="font-size: 14px;">四叶草</a> <a
+                        href="https://osx.cx/tag/%e6%98%be%e5%8d%a1%e9%a9%b1%e5%8a%a8/"
+                        class="tag-cloud-link tag-link-21 tag-link-position-17" style="font-size: 14px;">显卡驱动</a> <a
+                        href="https://osx.cx/tag/kext/" class="tag-cloud-link tag-link-49 tag-link-position-18"
+                        style="font-size: 14px;">kext</a> <a href="https://osx.cx/tag/mac/"
+                                                             class="tag-cloud-link tag-link-51 tag-link-position-19"
+                                                             style="font-size: 14px;">Mac</a> <a
+                        href="https://osx.cx/tag/mac%e8%bd%af%e4%bb%b6/"
+                        class="tag-cloud-link tag-link-66 tag-link-position-20" style="font-size: 14px;">Mac软件</a>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info"> Copyright ©  <a href="https://osx.cx/">黑苹果</a>社区 版权所有. <span class="add-info"> 折腾不息 · 乐此不疲 <a
+                href="http://www.miitbeian.gov.cn" target="_blank" rel="external nofollow noopener">苏ICP备17018824号-1</a> <a
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32058302001489" target="_blank"
+                rel="external nofollow noopener"><img src="https://cdn.osx.cx/wp-content/uploads/2017/09/ghs.png"/>苏公网安备 32058302001489号 </a> </span>
+        </div>
+    </footer>
+    <div id="login">
+        <div id="login-tab" class="login-tab-product fadeInDown animated"><h2 class="login-tab-hd"><span
+                class="login-tab-hd-con"><a href="javascript:">登录</a></span> <span class="login-tab-hd-con"><a
+                href="javascript:">注册</a></span> <span class="login-tab-hd-con"><a href="javascript:">找回密码</a></span>
+        </h2>
+            <div class="login-tab-bd login-dom-display">
+                <div class="login-tab-bd-con login-current">
+                    <div id="tab1_login" class="tab_content_login">
+                        <form method="post" action="https://osx.cx/wp-login.php" class="wp-user-form">
+                            <div class="username"><label for="user_login">用户名</label> <input type="text" name="log"
+                                                                                             value="" size="20"
+                                                                                             id="user_login"
+                                                                                             tabindex="11"/></div>
+                            <div class="password"><label for="user_pass">密码</label> <input type="password" name="pwd"
+                                                                                           value="" size="20"
+                                                                                           id="user_pass"
+                                                                                           tabindex="12"/></div>
+                            <div class="login-form"></div>
+                            <div class="login_fields">
+                                <div class="rememberme"><label for="rememberme"> <input type="checkbox"
+                                                                                        name="rememberme"
+                                                                                        value="forever"
+                                                                                        checked="checked"
+                                                                                        id="rememberme" tabindex="13"/>记住我的登录信息
+                                </label></div>
+                                <input type="submit" name="user-submit" value="登录" tabindex="14" class="user-submit"/>
+                                <input type="hidden" name="redirect_to" value="/"/> <input type="hidden"
+                                                                                           name="user-cookie"
+                                                                                           value="1"/></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="login-tab-bd-con reg-url"><a href="https://osx.cx/reg.html" target="_blank">立即注册</a>
+                    <p class="message">点击“立即注册”转到用户注册页面。</p></div>
+                <div class="login-tab-bd-con">
+                    <div id="tab3_login" class="tab_content_login"><p class="message">输入用户名或电子邮箱地址，您会收到一封新密码链接的电子邮件。</p>
+                        <form method="post" action="https://osx.cx/wp-login.php?action=lostpassword"
+                              class="wp-user-form">
+                            <div class="username"><label for="user_login" class="hide">用户名或电子邮件地址</label> <input
+                                    type="text" name="user_login" value="" size="20" id="user_login" tabindex="1001"/>
+                            </div>
+                            <div class="lostpassword-form"></div>
+                            <div class="login_fields">
+                                <div class="login-form"></div>
+                                <input type="submit" id="wp-submit" name="user-submit" value="获取新密码" class="user-submit"
+                                       tabindex="1002"/> <input type="hidden" name="redirect_to" value="/?reset=true"/>
+                                <input type="hidden" name="user-cookie" value="1"/></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="scroll">
+        <li class="log log-no"><a class="log-button" title="文章目录"><i class="be be-menu"></i></a>
+            <div class="log-prompt">
+                <div class="log-arrow">文章目录</div>
+            </div>
+        </li>
+        <li><a class="scroll-h" title="返回顶部"><i class="be be-arrowup"></i></a></li>
+        <li><a class="scroll-b" title="转到底部"><i class="be be-arrowdown"></i></a></li>
+        <li class="gb2-site"><a id="gb2big5"><span>繁</span></a></li>
+        <li class="qqonline">
+            <div class="online"><a href="javascript:void(0)"><i class="be be-qq"></i></a></div>
+            <div class="qqonline-box">
+                <div class="qqonline-main">
+                    <div class="nline-wiexin"><h4>微信</h4> <img title="微信" alt="微信"
+                                                               src="https://cdn.osx.cx/wp-content/uploads/2018/03/grwx-s1.jpg"/>
+                    </div>
+                    <div class="nline-qq"><h4>在线咨询</h4> <a target="_blank" rel="external nofollow"
+                                                           href="http://wpa.qq.com/msgrd?v=3&uin=6646220&site=qq&menu=yes"
+                                                           title="QQ在线咨询" rel="external nofollow"><i
+                            class="be be-qq"></i></a></div>
+                    <div class="clear"></div>
+                    <div class="nline-phone"><i class="be be-favoriteoutline"></i>暂时仅支持QQ客服，微信暂时未使用</div>
+                </div>
+                <span class="qq-arrow"><span class="arrow arrow-y"><i class="be be-playarrow"></i></span><span
+                        class="arrow arrow-x"><i class="be be-playarrow"></i></span></span></div>
+        </li>
+        <li class="qr-site"><a href="javascript:void(0)" class="qr" title="本页二维码"><i class="be be-qr-code"></i><span
+                class="qr-img"><span id="output"><img class="alignnone" src="/wp-content/uploads/2017/09/favicon.png"
+                                                      alt="icon"/></span><span class="arrow arrow-z"><i
+                class="be be-playarrow"></i></span><span class="arrow arrow-y"><i
+                class="be be-playarrow"></i></span></span></a></li>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script type="text/javascript">$(document).ready(function () {
+            if (!+[1,]) {
+                present = "table";
+            } else {
+                present = "canvas";
+            }
+            $('#output').qrcode({render: present, text: window.location.href, width: "150", height: "150"});
+        });</script>
+    </ul>
+</div>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/slides.js?ver=2018/2/22'></script>
+<script type='text/javascript'
+        src='https://cdn.osx.cx/wp-content/themes/begin/js/jquery.qrcode.min.js?ver=2018/2/22'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/sticky.js?ver=1.6.0'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/jquery-ias.js?ver=2.2.1'></script>
+<script type='text/javascript'
+        src='https://cdn.osx.cx/wp-content/themes/begin/js/jquery.lazyload.js?ver=2018/2/22'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/tipso.js?ver=1.0.1'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/script.js?ver=2018/2/22'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/flexisel.js?ver=2018/2/22'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/superfish.js?ver=2018/2/22'></script>
+<script type='text/javascript' src='https://cdn.osx.cx/wp-content/themes/begin/js/gb2big5.js?ver=2018/2/22'></script>
+<script type="text/javascript">var ias = $.ias({
+    container: "#main",
+    item: "article",
+    pagination: "#nav-below",
+    next: "#nav-below .nav-previous a",
+});
+ias.extension(new IASTriggerExtension({text: '<i class="be be-circledown"></i>更多', offset: 3,}));
+ias.extension(new IASSpinnerExtension());
+ias.extension(new IASNoneLeftExtension({text: '已是最后',}));
+ias.on('rendered', function (items) {
+    $("img").lazyload({effect: "fadeIn", failure_limit: 70});
+})</script>
+<script>(function () {\n$(document).ready(function () {\n(function () {\n
+    var $al_post_list = $('.post-update .post-list'), \
+    n
+    $al_post_list_f = $('.post-update .post-list:first');\n
+    $al_post_list.hide(1, function () {\n
+        $al_post_list_f.show();\n
+    });\n
+    $('.post-update div.mon').click(function () {\n
+        $(this).next().slideToggle(400);\n
+        return false;\n
+    });\n
+})();\n
+});\n\n
+    var bp = document.createElement('script');\n
+    var curProtocol = window.location.protocol.split(':')[0];\n
+    if (curProtocol === 'https') {\n
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';\n
+    }\n
+else
+    {\n
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';\n
+    }\n
+    var s = document.getElementsByTagName("script")[0];\n
+    s.parentNode.insertBefore(bp, s);\n
+})();</script>
+</body>
+</html>

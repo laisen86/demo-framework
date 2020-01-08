@@ -1,6 +1,5 @@
 package com.example.demoframework.service;
 
-import com.example.demoframework.domain.entity.OrderChangeLog;
 import com.example.demoframework.domain.entity.User;
 
 /**
